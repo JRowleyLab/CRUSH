@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #CRUSH Script Version
-version=1.0 # A version where EigenVector approach is considered for initialization states and recursive iteration of resolutions is implemented.
+version=1.0 #A version where EigenVector approach is considered for initialization states and recursive iteration of resolutions is implemented.
 
 #Initial variables
 hicpath=0
@@ -83,7 +83,7 @@ function spinner() {
 
 # Display usage
 function usage {
-    echo -e "\n\nusage : crush -i HIC -g SIZEFILE -a ABED -b BBED | FASTA -r FINERESOLUTION [-e EIGENVECTORBED] [-cpu CPU] [-w WINDOW] [-h]"
+    echo -e "\n\nusage : crush -i HIC  -g SIZEFILE -a ABED -b BBED | FASTA -r FINERESOLUTION [-e EIGENVECTORBED] [-cpu CPU] [-w WINDOW] [-h]"
     echo -e "Use option -h|--help for more information"
 }
 
@@ -103,8 +103,8 @@ function help {
     echo "-g|--genomesize          :  Specify path to a chromosome size file with two columns corresponding to chromosome and size respectively."
     echo "-a|--initialA            :  Specify path to a bed file with the regions for initializing A. For example, gene annotations e.g. hg19genes.bed."
     echo "-b|--initialB            :  Specify path to either a fasta file or to a bed file for initializing B. If you specify a fasta file, we will calculate intialB from gc content." 
-    echo "-r|--res                 :  Resolution desired."
     echo "-e|--eigenfile           :  Specify path to an eigenfile to initialize A and B states. If you don't specify a file, CRUSH will calculate EigenVectors by default and pick the best PC possible." 
+    echo "-r|--res                 :  Resolution desired."
     echo "---------------" 
 
     echo " "
@@ -318,28 +318,40 @@ process_genes_Bbins() {
 
         # Processing the genes & Bbins files 
         cat $EVAstates | mawk -v myres=$maxres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$maxres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
-
+        #cat $genes_file | mawk -v myres=$maxres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$maxres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
+        #echo "Checking Gene Bins for resolution $myres:"
+        #head $sortedbed
+        
         # Bbins
         cat $EVBstates |  mawk -v myres=$maxres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$maxres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $pseudoB
+        #cat $Bbins |  mawk -v myres=$maxres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$maxres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $pseudoB
+        #echo "Checking B-Bins for resolution $myres:"
+        #head $pseudoB
 
     elif [ "$switch" -lt 1 ]; then
 
         # Processing the genes & Bbins files
         cat $EVAstates | mawk -v myres=$myres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$myres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
-
+        #cat $genes_file | mawk -v myres=$myres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$myres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
+        #echo "Checking Gene Bins for resolution $myres:"
+        #head $sortedbed
         # Bbins
         cat $EVBstates | mawk -v myres=$myres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$myres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
-
+        #cat $Bbins | mawk -v myres=$myres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$myres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
+        #echo "Checking B-Bins for resolution $myres:"
+        #head $pseudoB
     else  
 
         echo "Using combined bins for $myres"
 
         # Processing the genes & Bbins files for other resolutions 
         cat $combined_newAbins | mawk -v myres=$myres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$myres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed
-
+        #echo "Checking Gene Bins for resolution $myres:"
+        #head $sortedbed
         # Bbins
         cat $combined_newBbins |  mawk -v myres=$myres -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$myres '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $pseudoB
-
+        #echo "Checking B-Bins for resolution $myres:"
+        #head $pseudoB
     fi
 
 }
@@ -669,7 +681,9 @@ process_oppocheck_statement() {
         start=$(date +%s)
     fi
 
-    # Generating the output
+    # Calculate the output
+    #mawk -v var="$res" -v myABsum="$myABsum" '{ if ($1 in b) b[$1] -= $2; else b[$1] = $2 } END { for (i in b) { if (b[i] != 0) print i "\t" (b[i])/myABsum } }' "${output_dir}/A2removedfile" "${output_dir}/B2removedfile" | sort -k 1bn,1b --stable | mawk -v mchr="$chr" -v myres="$res" -v window="$newwindow" -v OFS="\t" 'BEGIN { slide = 1 } { mod = NR % window; if (NR <= window) { print mchr, int($1), $2; count++ } else { sum -= array[mod] } sum += $2; array[mod] = $2;} (NR % slide) == 0 { print mchr, int($1-((myres*window)/2)), sum/count }' | mawk -v myres="$res" '{ print $1 "\t" $2-int(myres/2)+myres "\t" $2+(int(myres/2))+myres "\t" $3 }' | mawk '{ if ($2 > 0) print $0 }' > "$outie_oppo" 2> "${output_dir}/errorfile"
+
     mawk -v var="$res" -v myABsum="$myABsum" '{ if ($1 in b) b[$1] -= $2; else b[$1] = $2 } END { for (i in b) { if (b[i] != 0) print i "\t" (b[i])/myABsum } }' "${output_dir}/A2removedfile" "${output_dir}/B2removedfile" | sort -k 1bn,1b --stable | mawk -v mchr="$chr" -v myres="$res" -v OFS="\t" '{ print mchr, int($1), $2; count++ }' | mawk -v myres="$res" '{ print $1 "\t" $2-int(myres/2)+myres "\t" $2+(int(myres/2))+myres "\t" $3 }' | mawk '{ if ($2 > 0) print $0 }' > "$outie_oppo" 2> "${output_dir}/errorfile"
 
     # Process exclusion regions if exclbed file is provided
@@ -693,6 +707,17 @@ process_oppocheck_statement() {
     # Adjust compartmental values if needed
     if [[ "$oppocheck" -gt 0 && "$adjustment" -gt 0 ]]; then
 
+    #    amed=`mawk 'NR==FNR { c1[$1] = $2; next} {if ($2 in c1) print $4}' $innie_genes $outie_oppo | mawk '{sum +=$1} END {print sum/NR}'`
+    #    bmed=`mawk 'NR==FNR { c1[$1] = $2; next} {if ($2 in c1); else print $4}' $innie_genes $outie_oppo | mawk '{sum += $1} END {print sum/NR}'`
+
+    #    wait
+
+    #    cat $outie_oppo | mawk -v varA=$amed -v varB=$bmed '{print $1"\t"$2"\t"$3"\t"$4-(varA-(varB*-1))}' > $outie2
+
+    #    wait
+
+    #    mv $outie2 $outie_oppo
+
         amed=`awk '{if ($4 > 0) print $4}' |  awk '{if (NR == 1) geom=$1; else geom=($1*geom)} END {print geom**(1/NR)}'`
         bmed=`awk '{if ($4 < 0) print $4*-1}' |  awk '{if (NR == 1) geom=$1; else geom=($1*geom)} END {print geom**(1/NR)}'`
 
@@ -704,6 +729,17 @@ process_oppocheck_statement() {
         mv "$outie2" "$outie_oppo"
     fi
 
+    #if [ "$myres" -ge "$endZ" ]; then
+
+    #    myendmean=`cat $outie_oppo | mawk '{sum += $4; cnum++} END {print sum/cnum}'`
+    #    echo "$myendmean"
+    #    tmpendZ="${output_dir}/tmpendnorm"
+    #    cat $outie_oppo | mawk -v mymean=$myendmean '{print $1"\t"$2"\t"$3"\t"($4-mymean)}' > $tmpendZ
+    
+    #    wait
+
+    #    mv $tmpendZ $outie_oppo
+    #fi
 }
 
 # Shifter function
@@ -721,8 +757,8 @@ run_shifter() {
     awk -v var="$coarser_res" '
         {
             for (i=0; i<=$2; i+=var) {          # Loop from 0 to the size of the chromosome in steps of "var"
-                start = i                       # Calculate the start of the interval (2 bins to the left)
-                end = i+(var)                   # Calculate the end of the interval (3 bins to the right)
+                start = i              # Calculate the start of the interval (2 bins to the left)
+                end = i+(var)               # Calculate the end of the interval (3 bins to the right)
                 if (start < 0) start = 0        # Ensure the start is not negative
                 if (end > $2) end = $2          # Ensure the end does not exceed the chromosome length
                 print $1 "\t" start "\t" end    # Print the chromosome name, start, and end of the interval
@@ -733,8 +769,8 @@ run_shifter() {
     # Main pipeline (1. Intersect with high_innie and calculate mean 2. Intersect with coarse_innie and calculate first difference 3. Intersect with high_innie again and calculate final difference)
     intersectBed -wa -a temp_intervals.bed -wb -b $high_innie | groupBy -i stdin -g 1,2,3 -c 7 -o mean | intersectBed -wa -a $coarse_innie -wb -b stdin | awk '{print $1"\t"$2"\t"$3"\t"$8-$4}' | intersectBed -wa -a $high_innie -wb -b stdin | groupBy -i stdin -g 1,2,3,4 -c 8 -o mean | awk '{print $1"\t"$2"\t"$3"\t"$4-$5}' > $shifter_outie
 
-    # Cleanup
-    rm temp_intervals.bed
+    #Cleanup
+    #rm temp_intervals.bed
 
     echo "Shifter executed and output written to $shifter_outie"
 }
@@ -757,23 +793,51 @@ combined_newAbins=`echo "combined_newAbinsGI_""$myres"".txt"`
 
 cat $separatinginnie | awk '{if ($4 > 0) print $0}' > $AbinsR
 
+#echo "Checking Abins for resolution $myres:"
+#head $AbinsR
+
 cat $separatinginnie | awk '{if ($4 < 0) print $0}' > $BbinsR
+
+#echo "Checking Bbins for resolution $myres:"
+#head $BbinsR
 
 if [ "$switch" -eq 1 ]; then
 
     echo "Re-initialization of Bins is switched ""ON"". Re-evaluating both A and B bins and re-initializing for next resolution."
 
     cat $EVBstates | intersectBed -u -a stdin -b $BbinsR > $newBbins
+    #cat $Bbins | intersectBed -u -a stdin -b $BbinsR > $newBbins
+
+    #echo "Checking newBbins for resolution $myres:"
+    #head $newBbins
 
     awk 'NR==FNR{a[$1]=$1;next}!a[$1]' $newBbins $EVBstates > $non_newBbins
+    #awk 'NR==FNR{a[$1]=$1;next}!a[$1]' $newBbins $Bbins > $non_newBbins
+
+    #echo "Checking non_newBins for resolution $myres:"
+    #head $non_newBbins
 
     cat $newBbins $non_newBbins > $combined_newBbins 
 
+    #echo "Checking combined_newBbins for resolution $myres:"
+    #head $combined_newBbins
+
     cat $EVAstates | intersectBed -u -a stdin -b $AbinsR > $newAbins
+    #cat $genesfile | cut -f 1-3 | intersectBed -u -a stdin -b $AbinsR > $newAbins
+
+    #echo "Checking newAbins for resolution $myres:"
+    #head $non_newAbins
 
     awk 'NR==FNR{a[$1]=$1;next}!a[$1]' $newAbins $EVAstates > $non_newAbins
+    #awk 'NR==FNR{a[$1]=$1;next}!a[$1]' $newAbins $genesfile > $non_newAbins
+
+    #echo "Checking non_newAbins for resolution $myres:"
+    #head $non_newAbins
 
     cat $newAbins $non_newAbins > $combined_newAbins 
+
+    #echo "Checking combined_newAbins for resolution $myres:"
+    #head $combined_newAbins
 
 else
 
@@ -856,11 +920,12 @@ declare -a maxres_processed=0
 
 # Function to process a given resolution and generate output
 process_resolution() {
-    local myres=$1       # Resolution
+    local myres=$1  # Resolution
     local genesblock=$2  # Block for gene regions
 
     # Define output filenames based on resolution
     outiefull="Crush_${myres}.bedgraph"
+    outiefull_copy="Crush_Copy_${myres}.bedgraph"
 
     echo -e "\nNow dumping reads and calculating initial CRUSH for all chromosomes at $myres"
 
@@ -1021,6 +1086,10 @@ process_resolution() {
     echo -ne "Merging individual chromosome files\033[0K\r"
 
     cat Crush_original_${myres}_*_tmp | grep -v -i nan | sort -k 1,1 -V -k 2bn,2b -k 3bn,3b --stable > $outiefull
+    cp $outiefull $outiefull_copy
+    
+    #echo "Checking Output for resolution $myres:"
+    #head $outiefull
 
     wait 
 
@@ -1038,6 +1107,8 @@ process_resolution() {
     if [ "$countres" -gt 0 ]; then
 
         python_output="shifter.bedgraph"
+        python_output_copy="shifter_Copy_${myres}.bedgraph"
+        python_output_sorted="shifter_sorted.bedgraph"
 
         high_res_infile="$outiefull"
         coarse_res_infile="$coarse_infile"
@@ -1045,8 +1116,18 @@ process_resolution() {
         # Executing the Shifter Python Script
         run_shifter $high_res $coarse_res $high_res_infile $coarse_res_infile $python_output
 
+        #Smoothening
+        #run_smoothing $python_output $python_output_sorted
+        #cp $python_output $python_output_copy
+
+        #echo "Checking Shifter Output for resolution $myres:"
+        #head $python_output
+
         cat $python_output > $high_res_infile
 
+        #echo "Checking Rewritten Output file using Shifter Output for resolution $myres:"
+        #head $high_res_infile
+        
         echo "Resolution: $myres for shifter output"
         separating_ABbins $high_res_infile
 
@@ -1084,6 +1165,7 @@ reprocess_resolutions_with_shifter() {
         highres_reprocess=$prev_res
 
         local outiefull_reprocess=`echo "Crush_reprocess_""$prev_res"".bedgraph"`
+        local outiefull_reprocess_copy="Crush_reprocess_Copy_${prev_res}.bedgraph"
         local outiefullPval_reprocess=`echo "pvalues_reprocess_""$prev_res"".bedgraph"`
 
         # Loop through each chromosome
@@ -1103,10 +1185,12 @@ reprocess_resolutions_with_shifter() {
 
             # Processing the genes & Bbins files for other resolutions
             cat $combined_newAbins | mawk -v myres=$prev_res -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$prev_res '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $sortedbed_reprocess
-
+            #echo "Checking Gene Bins for resolution $prev_res  and loop res $myres:"
+            #head $sortedbed_reprocess
             # Bbins
             cat $combined_newBbins |  mawk -v myres=$prev_res -v mychr=$mychr '{if ($1 == mychr) print $1"\t"int($2/myres)*myres"\t"int($3/myres)*myres}' | awk -v myres=$prev_res '{for (i=$2;i<=$3;i+=myres) b[i]+=1}  END { for (j in b) print j"\t"b[j]} ' > $pseudoB_reprocess
-
+            #echo "Checking Gene Bins for resolution $prev_res  and loop res $myres:"
+            #head $pseudoB_reprocess
             echo "Files: $sortedbed_reprocess, $pseudoB_reprocess"
 
             # Assuming the existence of process_oppocheck_statement function with correct parameters
@@ -1124,12 +1208,17 @@ reprocess_resolutions_with_shifter() {
         echo -ne "Merging individual chromosome files\033[0K\r"
         
         cat Crush_reprocess_${prev_res}_*_tmp | grep -v -i nan | sort -k 1,1 -V -k 2bn,2b -k 3bn,3b --stable > $outiefull_reprocess
-
+        #cat Crush_reprocess*_tmp | grep -v -i nan | sort -k 1,1 -V -k 2bn,2b -k 3bn,3b --stable > $outiefull_reprocess
+        cp $outiefull_reprocess $outiefull_reprocess_copy
+        
+        #echo "Checking Output Reprocess for resolution $prev_res and loop res $myres:"
+        #head $outiefull_reprocess
+        
         if [ $prev_res -eq $minres ] && [ $pcalculation -gt 0 ]; then
         
             outiefullPval_reprocess="pvalues_reprocess_${prev_res}.bedgraph"
             echo "Resolution: $prev_res for Resolution output and minres is : $minres"
-            cat ttest_reprocess_${prev_res}_*_tmp | grep -v -i nan | sort -k 1,1 -V -k 2bn,2b -k 3bn,3b --stable > $outiefullPval_reprocess
+            cat ttest_reprocess*_tmp | grep -v -i nan | sort -k 1,1 -V -k 2bn,2b -k 3bn,3b --stable > $outiefullPval_reprocess
             wait 
         fi
 
@@ -1147,6 +1236,7 @@ reprocess_resolutions_with_shifter() {
         echo "$j"
 
         if [ "$j" -gt 0 ]; then
+            python_output_reprocess_copy="shifter_reprocess_Copy_${prev_res}.bedgraph"
 
             highres_infile_reprocess=$outiefull_reprocess
             coarse_res_infile_reprocess=$coarse_infile_reprocess
@@ -1163,7 +1253,17 @@ reprocess_resolutions_with_shifter() {
             # Run the shifter function
             run_shifter $highres_reprocess $coarse_res_reprocess $highres_infile_reprocess $coarse_res_infile_reprocess $python_output
 
+            #run_smoothing $python_output $python_output_sorted
+
+            #cp $python_output $python_output_reprocess_copy
+
+            #echo "Checking Shifter Output Reprocess for resolution $prev_res and loop res $myres:"
+            #head $python_output
+
             cat $python_output > $highres_infile_reprocess
+
+            #echo "Checking Rewritten Reprocess Output file using Shifter Output for resolution $prev_res and loop res $myres:"
+            #head $highres_infile_reprocess
 
             echo "Shifter run completed for $prev_res"
             echo "Resolution: $prev_res for shifter output"
@@ -1182,15 +1282,16 @@ reprocess_resolutions_with_shifter() {
 
 
 #The show unfolds from here:
+
 # Creating a directory for temporary file
 echo "Creating and moving into temporary directory"
 mkdir $crushdir
 cd $crushdir
 
 # Reading Resolutions
-if [ $juiceorcool -eq 0 ]; then 
-
-    cat << EOF > listres.py
+if [ $juiceorcool -eq 0 ]
+then
+cat << EOF > listres.py
 import hicstraw
 hic = hicstraw.HiCFile("$hicpath")
 totres=hic.getResolutions()
@@ -1205,8 +1306,8 @@ EOF
 res=`python listres.py`
 
 else
-    reslist=`cooler ls $hicpath | sed 's/\//\t/g' | awk -v var=$res -v cres=$coarsestres '{if (($NF >= var) && ($NF <= cres)) print $NF}' | sort -k 1bnr,1b --stable | awk '{if (NR == 1) printf "%s", $1; else printf ",%s", $1}' | awk '{print $0}'`
-    res=$reslist
+reslist=`cooler ls $hicpath | sed 's/\//\t/g' | awk -v var=$res -v cres=$coarsestres '{if (($NF >= var) && ($NF <= cres)) print $NF}' | sort -k 1bnr,1b --stable | awk '{if (NR == 1) printf "%s", $1; else printf ",%s", $1}' | awk '{print $0}'`
+res=$reslist
 fi
 
 
@@ -1275,8 +1376,9 @@ else
     cat $fastafile > $Bbins
 fi
 
-if [ $endZ == 0 ]; then
-    endZ=`echo "$minres"`
+if [ $endZ == 0 ]
+then
+endZ=`echo "$minres"`
 fi
 
 # Here is where I am running Eigen Block after reslist
@@ -1508,7 +1610,7 @@ if [ "$reshift" -gt 0 ]; then
 
             finalshifter=`echo "finalshifter.bedgraph"`
 
-            run_smoothing $newoutie $finalshifter
+            #run_smoothing $newoutie $finalshifter
 
             # Updating the resolution
             oldres=`echo "$myres"`
@@ -1522,10 +1624,10 @@ if [ "$reshift" -gt 0 ]; then
         fi
 
     done
-    rm mergedCrush2_*.bedgraph
-    rm $finalshifter
-    rm tmp2_shiftedleft
-    rm tmp1_shiftedright
+    #rm mergedCrush2_*.bedgraph
+    #rm $finalshifter
+    #rm tmp2_shiftedleft
+    #rm tmp1_shiftedright
 fi
 
 echo "Finished! Check the output."
