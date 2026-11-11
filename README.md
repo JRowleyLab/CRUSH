@@ -1,4 +1,4 @@
-![](/examples/figures/CRUSH_logo.jpg)
+![](/images/logos/CRUSH_logo.jpg)
 # CRUSH
 
 
@@ -8,7 +8,7 @@ CRUSH (**C**ompartmental **R**efinement for **U**ltraprecise **S**tratification 
 CRUSH does not decompose the whole contact matrix. It measures how strongly each bin interacts with A-type and B-type reference regions, then refines those scores step by step from coarse to fine resolution. A is always positive and B is always negative, so the track never needs to be flipped.
 
 #### Visual Algorithmic Explanation:
-![CRUSH](/examples/figures/CRUSHdiag.png)
+![CRUSH](/images/logos/CRUSHdiag.png)
 
 ### Versions
 
@@ -16,7 +16,7 @@ CRUSH does not decompose the whole contact matrix. It measures how strongly each
 |---|---|---|
 | **crush-rs 0.2** (current) | A standalone Rust program that reads `.hic` files natively, keeps the pipeline in memory and runs chromosomes in parallel. | New analyses. |
 | `crush-rs --v1` | A line-for-line port of the original bash pipeline, built into the same binary. Its known quirks are kept on purpose. | Regenerating tracks made with CRUSH v1. |
-| `CRUSH_v1.0`, `CRUSHv1.1` (bash) | The original pipeline, used for the tracks in the first version of the paper. | Kept for the record only. |
+| `legacy/CRUSH_v1.0`, `legacy/CRUSHv1.1` (bash) | The original pipeline, used for the tracks in the first version of the paper. | Kept for the record only. |
 
 See the [wiki](../../wiki) for full documentation, including how v2 differs from v1.
 
