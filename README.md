@@ -22,7 +22,14 @@ See the [wiki](../../wiki) for full documentation, including how v2 differs from
 
 ### How to install CRUSH
 
-You need a Rust toolchain (1.81 or newer; https://rustup.rs) to build CRUSH:
+**Prebuilt binary (Linux x86-64).** The repository includes `crush-rs`, a statically linked binary of the current version. It has no dependencies and runs on any 64-bit Linux:
+
+```
+git clone https://github.com/JRowleyLab/CRUSH.git
+CRUSH/crush-rs -h
+```
+
+**Build from source** (macOS, other platforms, or for about 30% faster runs than the static binary). You need a Rust toolchain, version 1.81 or newer (https://rustup.rs):
 
 ```
 git clone https://github.com/JRowleyLab/CRUSH.git
