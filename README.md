@@ -117,7 +117,7 @@ When a run finishes, CRUSH prints a **compartment check**. This is the contact e
 
 ### Time and memory
 
-These are genome-wide figures for GM12878 / LCL Hi-C with 24 threads (Table S13 of the paper).
+These are genome-wide figures for GM12878 / LCL Hi-C.
 
 | Contacts | 100 kb | 25 kb | 1 kb |
 |---|---|---|---|
@@ -128,4 +128,4 @@ These are genome-wide figures for GM12878 / LCL Hi-C with 24 threads (Table S13 
 
 ### Citation
 
-[CITATION: add the paper reference and DOI here once published, plus the bioRxiv preprint until then.]
+Kalluchi et al, Kilobase-scale compartments enabled by CRUSH reveal regulatory programs across cell types, single-cells, and ancient mammoths. bioRxiv 2026
