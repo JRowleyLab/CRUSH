@@ -1,0 +1,901 @@
+cell_type	gene	spec	p	FDR
+Neuron	Kcnh1	0.6163	3.134e-97	3.783e-94
+Neuron	Hhat	0.5833	2.593e-87	1.565e-84
+Neuron	Thsd7b	0.4954	1.758e-63	5.306e-61
+Neuron	C130026I21Rik	0.4294	3.811e-48	6.571e-46
+Neuron	A530032D15Rik	0.4156	3.228e-45	4.329e-43
+Neuron	Gm7609	0.4109	3.009e-44	3.632e-42
+Neuron	Dpp10	0.3972	1.859e-41	1.87e-39
+Neuron	Esrrg	0.3872	1.78e-39	1.653e-37
+Neuron	A830018L16Rik	0.3774	1.36e-37	1.095e-35
+Neuron	Spag16	0.3415	4.332e-31	2.905e-29
+Neuron	AC167036.2	0.3303	3.413e-29	1.961e-27
+Neuron	AC147806.1	0.3253	2.28e-28	1.251e-26
+Neuron	Rims1	0.3226	6.289e-28	3.163e-26
+Neuron	Ush2a	0.3215	9.733e-28	4.649e-26
+Neuron	Khdrbs2	0.3214	1.001e-27	4.649e-26
+Neuron	Kcnq5	0.3004	2.018e-24	8.119e-23
+Neuron	Kif26b	0.2855	3.247e-22	1.153e-20
+Neuron	Rgs7	0.2839	5.428e-22	1.872e-20
+Neuron	Cpa6	0.2825	8.586e-22	2.879e-20
+Neuron	Grem2	0.2806	1.617e-21	5.211e-20
+Neuron	Sphkap	0.2783	3.409e-21	1.004e-19
+Neuron	Xkr4	0.2764	6.397e-21	1.796e-19
+Neuron	Serpinb7	0.2663	1.547e-19	4.15e-18
+Neuron	Cnga3	0.2659	1.757e-19	4.609e-18
+Neuron	Kcnb2	0.2581	1.913e-18	4.528e-17
+Neuron	Serpinb11	0.2414	2.448e-16	5.184e-15
+Neuron	Gulp1	0.2406	3.095e-16	6.425e-15
+Neuron	Serpinb3b	0.2396	4.115e-16	8.012e-15
+Neuron	Col5a2	0.2372	8.088e-16	1.55e-14
+Neuron	Cacna1e	0.2333	2.319e-15	4.307e-14
+Neuron	Smyd3	0.2319	3.454e-15	6.317e-14
+Neuron	Vwc2l	0.2287	8.255e-15	1.487e-13
+Neuron	Prex2	0.2284	8.795e-15	1.561e-13
+Neuron	Rp1	0.2244	2.521e-14	4.169e-13
+Neuron	Sntg1	0.2241	2.775e-14	4.526e-13
+Neuron	Spata17	0.2202	7.683e-14	1.189e-12
+Neuron	Syt14	0.2172	1.643e-13	2.306e-12
+Neuron	Serpinb3c	0.2137	3.952e-13	5.129e-12
+Neuron	Daw1	0.2094	1.165e-12	1.464e-11
+Neuron	Nyap2	0.2091	1.242e-12	1.53e-11
+Neuron	Aff3	0.1975	1.981e-11	1.993e-10
+Neuron	Dnah7b	0.1964	2.556e-11	2.488e-10
+Neuron	Serpinb3a	0.1951	3.488e-11	3.342e-10
+Neuron	Vwa3b	0.1916	7.767e-11	7.212e-10
+Neuron	Sertad4	0.19	1.112e-10	9.945e-10
+Neuron	Ccl20	0.1893	1.286e-10	1.142e-09
+Neuron	Zap70	0.1853	3.139e-10	2.668e-09
+Neuron	Unc80	0.1844	3.815e-10	3.198e-09
+Neuron	Rcor3	0.1842	3.986e-10	3.318e-09
+Neuron	Cd48	0.1815	7.089e-10	5.782e-09
+Neuron	Slamf1	0.1813	7.524e-10	6.095e-09
+Neuron	Slc19a3	0.1784	1.398e-09	1.096e-08
+Neuron	Gm47959	0.1762	2.2e-09	1.691e-08
+Neuron	Hmcn1	0.1751	2.752e-09	2.102e-08
+Neuron	D1Pas1	0.1749	2.874e-09	2.182e-08
+Neuron	Olfr218	0.1716	5.662e-09	4.117e-08
+Neuron	Gm5415	0.1713	6.035e-09	4.336e-08
+Neuron	A030005K14Rik	0.1704	7.15e-09	5.062e-08
+Neuron	Krtap28-13	0.1704	7.15e-09	5.062e-08
+Neuron	Gpr39	0.1698	8.23e-09	5.742e-08
+Neuron	Cntnap5a	0.1693	9.046e-09	6.275e-08
+Neuron	Serpinb2	0.169	9.502e-09	6.516e-08
+Neuron	Inpp4a	0.1675	1.283e-08	8.508e-08
+Neuron	Krtap28-10	0.1673	1.339e-08	8.758e-08
+Neuron	Gm47969	0.1673	1.339e-08	8.758e-08
+Neuron	Col3a1	0.167	1.412e-08	9.164e-08
+Neuron	Dnah7a	0.1665	1.558e-08	1.001e-07
+Neuron	Pard3b	0.165	2.094e-08	1.31e-07
+Neuron	Slamf7	0.1647	2.241e-08	1.394e-07
+Neuron	Gm4788	0.1624	3.487e-08	2.147e-07
+Neuron	Syt2	0.157	9.855e-08	5.719e-07
+Neuron	Tnr	0.1568	1.025e-07	5.918e-07
+Neuron	Olfr1404	0.1546	1.514e-07	8.577e-07
+Neuron	4933424G06Rik	0.1518	2.554e-07	1.395e-06
+Neuron	Fcer1a	0.1485	4.594e-07	2.401e-06
+Neuron	Lonrf2	0.1483	4.761e-07	2.477e-06
+Neuron	Fev	0.1441	9.968e-07	4.961e-06
+Neuron	Cryba2	0.1441	9.968e-07	4.961e-06
+Neuron	Olfr1406	0.1399	2.028e-06	9.751e-06
+Neuron	Ifi214	0.1397	2.1e-06	1.006e-05
+Neuron	Lypd1	0.1373	3.139e-06	1.452e-05
+Neuron	2010300C02Rik	0.1367	3.452e-06	1.59e-05
+Neuron	Olfr1408	0.1365	3.582e-06	1.644e-05
+Neuron	Cops8	0.1359	3.938e-06	1.787e-05
+Neuron	Serpinb3d	0.1359	3.938e-06	1.787e-05
+Neuron	Asb18	0.1348	4.693e-06	2.098e-05
+Neuron	Ifi209	0.134	5.331e-06	2.374e-05
+Neuron	Fmn2	0.1329	6.41e-06	2.824e-05
+Neuron	Catspere1	0.1315	7.981e-06	3.478e-05
+Neuron	Mstn	0.1306	9.269e-06	4.01e-05
+Neuron	Btg2	0.13	1.018e-05	4.372e-05
+Neuron	Cfap65	0.1291	1.166e-05	4.957e-05
+Neuron	Lgr6	0.1266	1.728e-05	7.166e-05
+Neuron	Slco5a1	0.1264	1.768e-05	7.3e-05
+Neuron	Ifi204	0.1264	1.772e-05	7.3e-05
+Neuron	Ihh	0.1239	2.592e-05	0.000105
+Neuron	B020011L13Rik	0.1237	2.656e-05	0.0001072
+Neuron	Inpp5d	0.1234	2.805e-05	0.0001128
+Neuron	Nmnat2	0.1233	2.813e-05	0.0001128
+Neuron	Ifi207	0.1233	2.84e-05	0.0001135
+Neuron	Mndal	0.1223	3.27e-05	0.0001281
+Neuron	Map2	0.1215	3.724e-05	0.000145
+Neuron	Fmod	0.1213	3.799e-05	0.000147
+Neuron	Gm28360	0.1209	4.027e-05	0.0001553
+Neuron	Nppc	0.1203	4.429e-05	0.0001676
+Neuron	Dnah7c	0.1193	5.109e-05	0.0001921
+Neuron	Gm28168	0.1182	5.96e-05	0.0002213
+Neuron	Ly9	0.1181	6.106e-05	0.0002261
+Neuron	Tmem131	0.1177	6.404e-05	0.0002353
+Neuron	Cd244a	0.1169	7.249e-05	0.0002627
+Neuron	Gpatch2	0.1167	7.413e-05	0.0002679
+Neuron	Gm7145	0.1139	0.0001105	0.0003867
+Neuron	Ifi213	0.1138	0.0001116	0.0003893
+Neuron	Ifi208	0.1135	0.0001164	0.0004039
+Neuron	Gm10521	0.1131	0.0001227	0.000423
+Neuron	Ugt1a2	0.1124	0.0001352	0.0004622
+Neuron	Dnajb3	0.1124	0.0001352	0.0004622
+Neuron	Ugt1a1	0.1124	0.0001352	0.0004622
+Neuron	Amer3	0.1121	0.0001412	0.00048
+Neuron	Cd84	0.1113	0.000157	0.0005295
+Neuron	Ifi211	0.1112	0.0001591	0.000535
+Neuron	Efcab2	0.1109	0.0001651	0.0005505
+Neuron	Ube2t	0.1108	0.0001679	0.0005582
+Neuron	Pappa2	0.1103	0.0001797	0.0005925
+Neuron	Cfhr1	0.1092	0.0002101	0.0006834
+Neuron	Catspere2	0.1084	0.0002337	0.0007422
+Neuron	Cdk5r2	0.1071	0.0002773	0.0008717
+Neuron	Agap1	0.1058	0.0003268	0.001012
+Neuron	Olfr419	0.1034	0.0004453	0.001334
+Neuron	Mgat4a	0.1023	0.0005141	0.001532
+Neuron	Mroh2a	0.1016	0.0005603	0.001666
+Neuron	Nfasc	0.1015	0.0005688	0.001687
+Neuron	Ppp1r12b	0.1014	0.0005723	0.001693
+Neuron	Sema4c	0.1014	0.000575	0.001697
+Neuron	Sp140	0.101	0.000603	0.001767
+Neuron	Actr1b	0.1001	0.0006798	0.001977
+Neuron	Ifi202b	0.1	0.0006852	0.001988
+Neuron	Csrp1	0.09876	0.0007984	0.002305
+Neuron	Slamf6	0.09787	0.0008909	0.002539
+Neuron	Coa5	0.09786	0.0008918	0.002539
+Neuron	Stau2	0.09739	0.0009436	0.002667
+Neuron	Utp25	0.09717	0.0009692	0.002724
+Neuron	Cdk18	0.09716	0.0009705	0.002724
+Neuron	Nhej1	0.09593	0.001125	0.003106
+Neuron	Cfhr2	0.09399	0.001416	0.003859
+Neuron	Ptpn7	0.09279	0.001629	0.004409
+Neuron	Atf6	0.09269	0.001649	0.004453
+Neuron	Itln1	0.09239	0.001708	0.004581
+Neuron	Pkp1	0.09169	0.001851	0.00492
+Neuron	Adgrb3	0.09052	0.002116	0.005517
+Mature Oligodendrocyte	Cdh20	0.7163	9.654e-49	1.165e-45
+Mature Oligodendrocyte	Brinp3	0.7013	8.753e-47	5.282e-44
+Mature Oligodendrocyte	Cdc73	0.6214	4.123e-37	1.659e-34
+Mature Oligodendrocyte	St18	0.6169	1.338e-36	3.231e-34
+Mature Oligodendrocyte	B3galt2	0.5932	5.738e-34	1.154e-31
+Mature Oligodendrocyte	Erbb4	0.5504	1.761e-29	3.037e-27
+Mature Oligodendrocyte	Tmeff2	0.5275	3.242e-27	3.913e-25
+Mature Oligodendrocyte	Glrx2	0.4971	2.371e-24	2.602e-22
+Mature Oligodendrocyte	Cdh19	0.4841	3.525e-23	3.546e-21
+Mature Oligodendrocyte	Ptp4a1	0.479	1.014e-22	9.416e-21
+Mature Oligodendrocyte	Ro60	0.4769	1.552e-22	1.338e-20
+Mature Oligodendrocyte	Uchl5	0.4695	6.853e-22	5.514e-20
+Mature Oligodendrocyte	Dnm3	0.4527	1.809e-20	1.365e-18
+Mature Oligodendrocyte	Plxna2	0.4493	3.517e-20	2.305e-18
+Mature Oligodendrocyte	Rabgap1l	0.4491	3.629e-20	2.305e-18
+Mature Oligodendrocyte	Gm5698	0.4353	4.821e-19	2.53e-17
+Mature Oligodendrocyte	4931428L18Rik	0.4186	9.987e-18	4.711e-16
+Mature Oligodendrocyte	Pla2g4a	0.4143	2.151e-17	9.273e-16
+Mature Oligodendrocyte	Hs6st1	0.4055	9.978e-17	4.153e-15
+Mature Oligodendrocyte	Pign	0.3975	3.862e-16	1.554e-14
+Mature Oligodendrocyte	Phf3	0.3931	8.223e-16	3.202e-14
+Mature Oligodendrocyte	4930558K02Rik	0.383	4.351e-15	1.545e-13
+Mature Oligodendrocyte	Phlpp1	0.3667	5.866e-14	1.913e-12
+Mature Oligodendrocyte	Gpr52	0.3475	1.102e-12	3.243e-11
+Mature Oligodendrocyte	Dock10	0.344	1.838e-12	5.282e-11
+Mature Oligodendrocyte	Pigc	0.3425	2.298e-12	6.45e-11
+Mature Oligodendrocyte	Relch	0.3407	2.971e-12	8.151e-11
+Mature Oligodendrocyte	D1Ertd622e	0.3402	3.231e-12	8.667e-11
+Mature Oligodendrocyte	Gin1	0.3397	3.464e-12	9.089e-11
+Mature Oligodendrocyte	Rrs1	0.336	5.881e-12	1.479e-10
+Mature Oligodendrocyte	Ivns1abp	0.3236	3.385e-11	7.858e-10
+Mature Oligodendrocyte	Tgfb2	0.3217	4.434e-11	9.836e-10
+Mature Oligodendrocyte	Ppip5k2	0.3215	4.564e-11	9.836e-10
+Mature Oligodendrocyte	Swt1	0.3171	8.321e-11	1.762e-09
+Mature Oligodendrocyte	Plcl1	0.3168	8.684e-11	1.807e-09
+Mature Oligodendrocyte	Cep170	0.3091	2.435e-10	4.521e-09
+Mature Oligodendrocyte	Pam	0.3055	3.905e-10	6.932e-09
+Mature Oligodendrocyte	Vps4b	0.3027	5.671e-10	9.507e-09
+Mature Oligodendrocyte	Prrc2c	0.2938	1.763e-09	2.915e-08
+Mature Oligodendrocyte	Eef1aknmt	0.2931	1.919e-09	3.131e-08
+Mature Oligodendrocyte	Pigm	0.2925	2.092e-09	3.323e-08
+Mature Oligodendrocyte	Adhfe1	0.2895	3.045e-09	4.652e-08
+Mature Oligodendrocyte	Suco	0.2886	3.411e-09	5.146e-08
+Mature Oligodendrocyte	Lgsn	0.2875	3.887e-09	5.653e-08
+Mature Oligodendrocyte	Myocos	0.2869	4.197e-09	6.031e-08
+Mature Oligodendrocyte	Bcl2	0.2855	4.964e-09	6.993e-08
+Mature Oligodendrocyte	Epha4	0.2855	4.982e-09	6.993e-08
+Mature Oligodendrocyte	Mcm3	0.2844	5.689e-09	7.726e-08
+Mature Oligodendrocyte	Acsl3	0.2844	5.697e-09	7.726e-08
+Mature Oligodendrocyte	Kdsr	0.2835	6.399e-09	8.305e-08
+Mature Oligodendrocyte	Ncoa2	0.282	7.63e-09	9.797e-08
+Mature Oligodendrocyte	Pou3f3	0.2817	7.887e-09	1.002e-07
+Mature Oligodendrocyte	Spata3	0.2761	1.549e-08	1.938e-07
+Mature Oligodendrocyte	Trip12	0.2761	1.558e-08	1.938e-07
+Mature Oligodendrocyte	Hecw2	0.2723	2.451e-08	2.929e-07
+Mature Oligodendrocyte	Igsf8	0.2712	2.769e-08	3.277e-07
+Mature Oligodendrocyte	Pea15a	0.2677	4.195e-08	4.732e-07
+Mature Oligodendrocyte	Kcnj10	0.2661	5.003e-08	5.539e-07
+Mature Oligodendrocyte	2810459M11Rik	0.2649	5.764e-08	6.325e-07
+Mature Oligodendrocyte	Mogat1	0.2634	6.821e-08	7.351e-07
+Mature Oligodendrocyte	Vamp4	0.2587	1.163e-07	1.211e-06
+Mature Oligodendrocyte	Zbtb41	0.2587	1.164e-07	1.211e-06
+Mature Oligodendrocyte	Paqr8	0.258	1.259e-07	1.277e-06
+Mature Oligodendrocyte	Cacybp	0.257	1.402e-07	1.41e-06
+Mature Oligodendrocyte	Trmt1l	0.2559	1.586e-07	1.574e-06
+Mature Oligodendrocyte	Tsn	0.2559	1.591e-07	1.574e-06
+Mature Oligodendrocyte	Psmd1	0.2544	1.88e-07	1.845e-06
+Mature Oligodendrocyte	Utp14b	0.2542	1.913e-07	1.862e-06
+Mature Oligodendrocyte	Gm21972	0.2536	2.062e-07	1.991e-06
+Mature Oligodendrocyte	Dcaf8	0.2515	2.585e-07	2.477e-06
+Mature Oligodendrocyte	BC035947	0.2512	2.684e-07	2.535e-06
+Mature Oligodendrocyte	Atp1a2	0.2511	2.689e-07	2.535e-06
+Mature Oligodendrocyte	Myoc	0.25	3.052e-07	2.856e-06
+Mature Oligodendrocyte	Dst	0.249	3.386e-07	3.144e-06
+Mature Oligodendrocyte	Aspm	0.2486	3.534e-07	3.256e-06
+Mature Oligodendrocyte	Dtymk	0.2483	3.656e-07	3.318e-06
+Mature Oligodendrocyte	Htr2b	0.2471	4.182e-07	3.767e-06
+Mature Oligodendrocyte	Sdccag8	0.247	4.225e-07	3.778e-06
+Mature Oligodendrocyte	Fbxo36	0.2459	4.719e-07	4.158e-06
+Mature Oligodendrocyte	Prdx6	0.244	5.823e-07	5.057e-06
+Mature Oligodendrocyte	Rrp15	0.2435	6.141e-07	5.294e-06
+Mature Oligodendrocyte	Hhipl2	0.2419	7.265e-07	6.132e-06
+Mature Oligodendrocyte	Uck2	0.2401	8.791e-07	7.314e-06
+Mature Oligodendrocyte	Gpr55	0.24	8.887e-07	7.314e-06
+Mature Oligodendrocyte	Tmco1	0.2388	9.982e-07	8.086e-06
+Mature Oligodendrocyte	Col9a1	0.2384	1.047e-06	8.373e-06
+Mature Oligodendrocyte	Cd34	0.2383	1.055e-06	8.376e-06
+Mature Oligodendrocyte	Rgs2	0.2382	1.062e-06	8.38e-06
+Mature Oligodendrocyte	Atp1a4	0.2381	1.076e-06	8.436e-06
+Mature Oligodendrocyte	Zfp281	0.2377	1.121e-06	8.677e-06
+Mature Oligodendrocyte	D2hgdh	0.2368	1.232e-06	9.474e-06
+Mature Oligodendrocyte	Ccnyl1	0.2331	1.802e-06	1.359e-05
+Mature Oligodendrocyte	Cab39	0.2327	1.873e-06	1.396e-05
+Mature Oligodendrocyte	Aldh9a1	0.2324	1.925e-06	1.425e-05
+Mature Oligodendrocyte	Zcchc2	0.2316	2.097e-06	1.543e-05
+Mature Oligodendrocyte	Ing5	0.2313	2.166e-06	1.585e-05
+Mature Oligodendrocyte	Kcnj9	0.2311	2.209e-06	1.597e-05
+Mature Oligodendrocyte	Jph1	0.2282	2.966e-06	2.119e-05
+Mature Oligodendrocyte	Mars2	0.2279	3.047e-06	2.163e-05
+Mature Oligodendrocyte	Casq1	0.2271	3.28e-06	2.315e-05
+Mature Oligodendrocyte	4933407L21Rik	0.2242	4.402e-06	3.089e-05
+Mature Oligodendrocyte	Rnf152	0.2224	5.239e-06	3.655e-05
+Mature Oligodendrocyte	Actr3	0.2216	5.638e-06	3.889e-05
+Mature Oligodendrocyte	Copa	0.2212	5.884e-06	4.035e-05
+Mature Oligodendrocyte	Mrps14	0.2211	5.949e-06	4.056e-05
+Mature Oligodendrocyte	Vcpip1	0.2195	6.917e-06	4.664e-05
+Mature Oligodendrocyte	Hlx	0.2186	7.529e-06	5.048e-05
+Mature Oligodendrocyte	Mgst3	0.2185	7.637e-06	5.093e-05
+Mature Oligodendrocyte	Itm2c	0.2171	8.698e-06	5.737e-05
+Mature Oligodendrocyte	Marc1	0.2156	1.007e-05	6.434e-05
+Mature Oligodendrocyte	Uggt1	0.2135	1.23e-05	7.611e-05
+Mature Oligodendrocyte	Pex19	0.2112	1.513e-05	9.223e-05
+Mature Oligodendrocyte	Fzd5	0.21	1.698e-05	0.0001015
+Mature Oligodendrocyte	Gm3646	0.2097	1.738e-05	0.0001028
+Mature Oligodendrocyte	Klf7	0.2096	1.759e-05	0.0001036
+Mature Oligodendrocyte	Fam174a	0.2092	1.823e-05	0.0001068
+Mature Oligodendrocyte	Armc9	0.2089	1.874e-05	0.0001093
+Mature Oligodendrocyte	Rftn2	0.2055	2.562e-05	0.0001476
+Mature Oligodendrocyte	Mybl1	0.2055	2.567e-05	0.0001476
+Mature Oligodendrocyte	Ncstn	0.2042	2.874e-05	0.0001628
+Mature Oligodendrocyte	Mfsd6	0.2034	3.103e-05	0.0001742
+Mature Oligodendrocyte	Slc39a10	0.2028	3.263e-05	0.0001815
+Mature Oligodendrocyte	1700066M21Rik	0.2005	4.013e-05	0.0002202
+Mature Oligodendrocyte	Wdfy1	0.2	4.198e-05	0.0002282
+Mature Oligodendrocyte	Fn1	0.1993	4.457e-05	0.0002413
+Mature Oligodendrocyte	Nmur1	0.1992	4.499e-05	0.0002424
+Mature Oligodendrocyte	Gsta3	0.1983	4.887e-05	0.000261
+Mature Oligodendrocyte	Eya1	0.1978	5.08e-05	0.0002701
+Mature Oligodendrocyte	Il17f	0.1974	5.283e-05	0.0002784
+Mature Oligodendrocyte	Fam135a	0.1973	5.328e-05	0.0002795
+Mature Oligodendrocyte	Nek7	0.1972	5.349e-05	0.0002795
+Mature Oligodendrocyte	G0s2	0.1969	5.492e-05	0.0002846
+Mature Oligodendrocyte	Farp2	0.1969	5.494e-05	0.0002846
+Mature Oligodendrocyte	Prdm14	0.1942	6.936e-05	0.0003578
+Mature Oligodendrocyte	Rnf2	0.193	7.706e-05	0.0003924
+Mature Oligodendrocyte	Serpinc1	0.1927	7.89e-05	0.0004001
+Mature Oligodendrocyte	Atg4b	0.1884	0.0001137	0.0005623
+Mature Oligodendrocyte	Rc3h1	0.1869	0.0001292	0.0006312
+Mature Oligodendrocyte	3110009E18Rik	0.1852	0.0001488	0.000718
+Mature Oligodendrocyte	Tmem163	0.1844	0.0001588	0.0007486
+Mature Oligodendrocyte	Dbi	0.1841	0.0001629	0.0007629
+Mature Oligodendrocyte	Nhlh1	0.1841	0.0001631	0.0007629
+Mature Oligodendrocyte	Farsb	0.1839	0.0001649	0.0007687
+Mature Oligodendrocyte	Lamb3	0.1837	0.0001688	0.0007837
+Mature Oligodendrocyte	Boll	0.1832	0.0001758	0.0008098
+Mature Oligodendrocyte	Ly96	0.1831	0.0001769	0.0008116
+Mature Oligodendrocyte	Myl1	0.183	0.0001778	0.000813
+Mature Oligodendrocyte	Tnfrsf11a	0.1816	0.0001988	0.0009053
+Mature Oligodendrocyte	Tpr	0.1807	0.0002146	0.0009739
+Mature Oligodendrocyte	Smyd2	0.1801	0.0002259	0.001021
+Microglia Etc.	Pign	0.7038	8.714e-35	2.103e-32
+Microglia Etc.	Cdc73	0.6883	2.45e-33	4.929e-31
+Microglia Etc.	B3galt2	0.6649	3.206e-31	4.837e-29
+Microglia Etc.	Relch	0.6487	8.443e-30	1.019e-27
+Microglia Etc.	Dock10	0.6006	8.797e-26	6.636e-24
+Microglia Etc.	Slc40a1	0.5744	1.007e-23	7.148e-22
+Microglia Etc.	Tnfrsf11a	0.5691	2.594e-23	1.648e-21
+Microglia Etc.	Gm5269	0.5591	1.472e-22	8.885e-21
+Microglia Etc.	Serpinb12	0.5558	2.595e-22	1.491e-20
+Microglia Etc.	Pla2g4a	0.551	5.853e-22	3.211e-20
+Microglia Etc.	Glrx2	0.5369	6.326e-21	3.182e-19
+Microglia Etc.	Tns1	0.5262	3.644e-20	1.629e-18
+Microglia Etc.	Zfp281	0.5209	8.654e-20	3.602e-18
+Microglia Etc.	Uchl5	0.4898	1.109e-17	4.058e-16
+Microglia Etc.	Ro60	0.4888	1.296e-17	4.601e-16
+Microglia Etc.	Pid1	0.4662	3.692e-16	1.204e-14
+Microglia Etc.	Dars	0.4656	4e-16	1.27e-14
+Microglia Etc.	Rrp15	0.4597	9.269e-16	2.869e-14
+Microglia Etc.	Serpinb5	0.4559	1.608e-15	4.565e-14
+Microglia Etc.	Wdr75	0.4558	1.619e-15	4.565e-14
+Microglia Etc.	Il18r1	0.4558	1.626e-15	4.565e-14
+Microglia Etc.	Nabp1	0.4474	5.265e-15	1.381e-13
+Microglia Etc.	Slc39a10	0.4464	6.07e-15	1.559e-13
+Microglia Etc.	AI597479	0.4415	1.19e-14	2.931e-13
+Microglia Etc.	Ppip5k2	0.4383	1.842e-14	4.448e-13
+Microglia Etc.	Rrs1	0.4341	3.244e-14	7.678e-13
+Microglia Etc.	Adhfe1	0.4328	3.861e-14	8.962e-13
+Microglia Etc.	Ccdc93	0.4324	4.103e-14	9.343e-13
+Microglia Etc.	St8sia4	0.4314	4.65e-14	1.039e-12
+Microglia Etc.	Myo1b	0.4311	4.893e-14	1.074e-12
+Microglia Etc.	D1Ertd622e	0.4279	7.44e-14	1.604e-12
+Microglia Etc.	Ugt1a6a	0.4276	7.772e-14	1.646e-12
+Microglia Etc.	Ugt1a6b	0.4265	9.003e-14	1.874e-12
+Microglia Etc.	Ly96	0.4238	1.277e-13	2.613e-12
+Microglia Etc.	A630001G21Rik	0.4223	1.57e-13	3.159e-12
+Microglia Etc.	Cfh	0.4205	1.99e-13	3.937e-12
+Microglia Etc.	Mcm3	0.419	2.408e-13	4.576e-12
+Microglia Etc.	Ugt1a8	0.4189	2.445e-13	4.576e-12
+Microglia Etc.	Ugt1a7c	0.4189	2.445e-13	4.576e-12
+Microglia Etc.	Lypla1	0.4185	2.569e-13	4.699e-12
+Microglia Etc.	Rgs2	0.4182	2.664e-13	4.799e-12
+Microglia Etc.	Pfkfb2	0.4176	2.874e-13	5.101e-12
+Microglia Etc.	Il18rap	0.4149	4.109e-13	7.187e-12
+Microglia Etc.	Hs6st1	0.4144	4.344e-13	7.49e-12
+Microglia Etc.	Farsb	0.4142	4.49e-13	7.537e-12
+Microglia Etc.	Ugt1a5	0.4142	4.496e-13	7.537e-12
+Microglia Etc.	Il1rl1	0.4136	4.847e-13	8.015e-12
+Microglia Etc.	Tgfbrap1	0.4125	5.611e-13	9.153e-12
+Microglia Etc.	Gm37988	0.4098	7.925e-13	1.275e-11
+Microglia Etc.	Sgk3	0.407	1.124e-12	1.785e-11
+Microglia Etc.	Serpinb13	0.4068	1.148e-12	1.799e-11
+Microglia Etc.	Prim2	0.4032	1.824e-12	2.823e-11
+Microglia Etc.	AA986860	0.4025	1.981e-12	3.026e-11
+Microglia Etc.	Ugt1a10	0.4014	2.287e-12	3.43e-11
+Microglia Etc.	Ugt1a9	0.4014	2.287e-12	3.43e-11
+Microglia Etc.	Serpine2	0.4007	2.489e-12	3.664e-11
+Microglia Etc.	Vps4b	0.3993	2.97e-12	4.267e-11
+Microglia Etc.	Yod1	0.3984	3.291e-12	4.673e-11
+Microglia Etc.	Marco	0.3975	3.706e-12	5.202e-11
+Microglia Etc.	Slc9a4	0.3959	4.489e-12	6.196e-11
+Microglia Etc.	Wdfy1	0.3959	4.517e-12	6.196e-11
+Microglia Etc.	Tsn	0.3948	5.145e-12	6.978e-11
+Microglia Etc.	Pou3f3	0.3921	7.155e-12	9.526e-11
+Microglia Etc.	Sp100	0.3921	7.182e-12	9.526e-11
+Microglia Etc.	Gm29427	0.3918	7.42e-12	9.735e-11
+Microglia Etc.	Prox1	0.3905	8.699e-12	1.129e-10
+Microglia Etc.	Tmco1	0.39	9.294e-12	1.193e-10
+Microglia Etc.	Ptp4a1	0.3892	1.02e-11	1.297e-10
+Microglia Etc.	BC035947	0.3878	1.207e-11	1.518e-10
+Microglia Etc.	Mroh2a	0.3859	1.529e-11	1.903e-10
+Microglia Etc.	Il1rl2	0.3844	1.817e-11	2.238e-10
+Microglia Etc.	Aldh9a1	0.3831	2.134e-11	2.602e-10
+Microglia Etc.	Ptprc	0.3806	2.873e-11	3.468e-10
+Microglia Etc.	Tpp2	0.3804	2.94e-11	3.514e-10
+Microglia Etc.	Ugt1a2	0.3798	3.163e-11	3.707e-10
+Microglia Etc.	Dnajb3	0.3798	3.163e-11	3.707e-10
+Microglia Etc.	Ugt1a1	0.3798	3.163e-11	3.707e-10
+Microglia Etc.	Mrpl15	0.3795	3.292e-11	3.785e-10
+Microglia Etc.	Ddx18	0.3771	4.372e-11	4.932e-10
+Microglia Etc.	Nek7	0.3762	4.838e-11	5.407e-10
+Microglia Etc.	Mgst3	0.3751	5.51e-11	6.101e-10
+Microglia Etc.	Vcpip1	0.3709	8.974e-11	9.847e-10
+Microglia Etc.	Tram2	0.3705	9.367e-11	1.019e-09
+Microglia Etc.	Eloc	0.3703	9.575e-11	1.032e-09
+Microglia Etc.	Pdcd1	0.3693	1.079e-10	1.152e-09
+Microglia Etc.	Fcmr	0.3679	1.27e-10	1.334e-09
+Microglia Etc.	Mrpl44	0.3679	1.271e-10	1.334e-09
+Microglia Etc.	Kdsr	0.3672	1.374e-10	1.43e-09
+Microglia Etc.	Ralb	0.3667	1.451e-10	1.496e-09
+Microglia Etc.	Tmem70	0.3661	1.558e-10	1.594e-09
+Microglia Etc.	Cops5	0.3654	1.692e-10	1.716e-09
+Microglia Etc.	Acadl	0.3644	1.893e-10	1.888e-09
+Microglia Etc.	Klhl20	0.3642	1.936e-10	1.915e-09
+Microglia Etc.	BC055324	0.3638	2.021e-10	1.983e-09
+Microglia Etc.	Mcm6	0.3615	2.641e-10	2.551e-09
+Microglia Etc.	Phf3	0.3611	2.741e-10	2.626e-09
+Microglia Etc.	Ptgs2	0.3596	3.278e-10	3.115e-09
+Microglia Etc.	Scyl3	0.3595	3.318e-10	3.119e-09
+Microglia Etc.	Il24	0.3594	3.333e-10	3.119e-09
+Microglia Etc.	Mrps9	0.3582	3.814e-10	3.541e-09
+Microglia Etc.	Plekhb2	0.3556	5.097e-10	4.697e-09
+Microglia Etc.	Ercc5	0.3553	5.275e-10	4.823e-09
+Microglia Etc.	C4bp	0.3545	5.759e-10	5.193e-09
+Microglia Etc.	Cspp1	0.3532	6.699e-10	5.989e-09
+Microglia Etc.	Dars2	0.3501	9.424e-10	8.242e-09
+Microglia Etc.	Pigr	0.3497	9.846e-10	8.55e-09
+Microglia Etc.	Zbtb37	0.3484	1.124e-09	9.691e-09
+Microglia Etc.	Hjurp	0.3482	1.157e-09	9.906e-09
+Microglia Etc.	Tcea1	0.3462	1.442e-09	1.226e-08
+Microglia Etc.	Ankrd45	0.3432	1.982e-09	1.653e-08
+Microglia Etc.	Mettl18	0.3432	1.985e-09	1.653e-08
+Microglia Etc.	Tgfb2	0.343	2.029e-09	1.677e-08
+Microglia Etc.	Fam174a	0.3418	2.3e-09	1.876e-08
+Microglia Etc.	Hhipl2	0.3405	2.639e-09	2.137e-08
+Microglia Etc.	Kif14	0.3402	2.727e-09	2.194e-08
+Microglia Etc.	Zp3r	0.34	2.796e-09	2.235e-08
+Microglia Etc.	Tmem182	0.3389	3.14e-09	2.49e-08
+Microglia Etc.	Trip12	0.3389	3.157e-09	2.49e-08
+Microglia Etc.	Mybl1	0.3385	3.265e-09	2.559e-08
+Microglia Etc.	Odr4	0.3384	3.316e-09	2.582e-08
+Microglia Etc.	Insig2	0.3373	3.737e-09	2.892e-08
+Microglia Etc.	Lyplal1	0.3371	3.823e-09	2.939e-08
+Microglia Etc.	Rufy4	0.3367	3.98e-09	3.04e-08
+Microglia Etc.	Zcchc2	0.3361	4.243e-09	3.221e-08
+Microglia Etc.	Kansl1l	0.3342	5.147e-09	3.868e-08
+Microglia Etc.	Il1r1	0.3342	5.169e-09	3.868e-08
+Microglia Etc.	Uap1	0.3342	5.192e-09	3.868e-08
+Microglia Etc.	3110009E18Rik	0.3331	5.793e-09	4.29e-08
+Microglia Etc.	Cenpl	0.3323	6.306e-09	4.641e-08
+Microglia Etc.	Ikzf2	0.3313	6.98e-09	5.106e-08
+Microglia Etc.	Epha4	0.3294	8.518e-09	6.194e-08
+Microglia Etc.	1700066M21Rik	0.3288	9.044e-09	6.537e-08
+Microglia Etc.	Stat4	0.3281	9.715e-09	6.938e-08
+Microglia Etc.	Ube2w	0.3277	1.012e-08	7.188e-08
+Microglia Etc.	Rps6kc1	0.3275	1.039e-08	7.337e-08
+Microglia Etc.	Gm5698	0.3271	1.081e-08	7.585e-08
+Microglia Etc.	Fam168b	0.326	1.211e-08	8.45e-08
+Microglia Etc.	Dbi	0.325	1.344e-08	9.322e-08
+Microglia Etc.	Tmem37	0.3241	1.475e-08	1.017e-07
+Microglia Etc.	Nifk	0.3235	1.559e-08	1.063e-07
+Microglia Etc.	Ppp1r42	0.3224	1.75e-08	1.187e-07
+Microglia Etc.	Gm6217	0.3223	1.765e-08	1.187e-07
+Microglia Etc.	A030003K21Rik	0.3223	1.765e-08	1.187e-07
+Microglia Etc.	Cab39	0.3221	1.802e-08	1.202e-07
+Microglia Etc.	Xkr9	0.3215	1.904e-08	1.263e-07
+Microglia Etc.	Tex30	0.3211	1.983e-08	1.306e-07
+Microglia Etc.	Vxn	0.3211	1.991e-08	1.306e-07
+Microglia Etc.	A030014E15Rik	0.3183	2.639e-08	1.722e-07
+Microglia Etc.	Atp6v1h	0.3174	2.88e-08	1.869e-07
+Microglia Etc.	Tpr	0.317	3.016e-08	1.947e-07
+Adult Astrocyte	Cdh20	0.3494	1.266e-08	3.82e-06
+Adult Astrocyte	Prex2	0.3268	1.026e-07	2.064e-05
+Adult Astrocyte	Gli2	0.3234	1.381e-07	2.381e-05
+Adult Astrocyte	Rftn2	0.3044	7.14e-07	9.576e-05
+Adult Astrocyte	Phlpp1	0.2949	1.56e-06	0.0001569
+Adult Astrocyte	Bcl2	0.2888	2.546e-06	0.0002364
+Adult Astrocyte	Brinp3	0.2754	7.284e-06	0.0005862
+Adult Astrocyte	Cavin2	0.2663	1.446e-05	0.001091
+Adult Astrocyte	Mars2	0.2619	1.999e-05	0.001206
+Adult Astrocyte	Astn1	0.2509	4.381e-05	0.002299
+Adult Astrocyte	Cdh7	0.2353	0.0001267	0.004635
+Adult Astrocyte	Eya1	0.2341	0.0001376	0.004886
+Adult Astrocyte	Mob4	0.2311	0.0001671	0.005368
+Adult Astrocyte	Pou3f3	0.2264	0.0002265	0.006668
+Adult Astrocyte	Cdh19	0.2264	0.0002265	0.006668
+Adult Astrocyte	Hsd11b1	0.223	0.0002806	0.007876
+Adult Astrocyte	Slco6d1	0.2188	0.0003651	0.009377
+Adult Astrocyte	Mcm3	0.217	0.0004091	0.01008
+Adult Astrocyte	Crygd	0.2152	0.0004569	0.01031
+Adult Astrocyte	Crygc	0.2152	0.0004569	0.01031
+Adult Astrocyte	Rgs21	0.2139	0.0004943	0.01085
+Adult Astrocyte	Crygb	0.2135	0.0005051	0.01089
+Adult Astrocyte	Hs6st1	0.2129	0.0005258	0.01113
+Adult Astrocyte	Nif3l1	0.2054	0.0008209	0.01585
+Adult Astrocyte	Rgs20	0.2053	0.0008263	0.01585
+Adult Astrocyte	Orc2	0.2039	0.0008957	0.01663
+Adult Astrocyte	G0s2	0.2013	0.001041	0.01875
+Adult Astrocyte	Tmeff2	0.2007	0.001078	0.01885
+Adult Astrocyte	Clk1	0.1997	0.001142	0.0197
+Adult Astrocyte	Ppil3	0.1986	0.00122	0.02074
+Adult Astrocyte	Adgrb3	0.1978	0.001271	0.02101
+Adult Astrocyte	Atg4b	0.197	0.001332	0.02173
+Adult Astrocyte	Kdsr	0.1961	0.001402	0.02257
+Adult Astrocyte	Flacc1	0.1946	0.00153	0.0243
+Adult Astrocyte	Hhipl2	0.1911	0.001855	0.0273
+Adult Astrocyte	Marc1	0.1908	0.001881	0.02732
+Adult Astrocyte	Tor1aip2	0.1907	0.001901	0.02732
+Adult Astrocyte	Fam163a	0.1886	0.002129	0.03024
+Adult Astrocyte	Npas2	0.1879	0.002206	0.03034
+Adult Astrocyte	Gal3st2b	0.1879	0.002212	0.03034
+Adult Astrocyte	Paqr8	0.1857	0.002493	0.03343
+Adult Astrocyte	Cflar	0.1834	0.00282	0.03621
+Adult Astrocyte	Rgl1	0.1804	0.003295	0.0404
+Adult Astrocyte	Thap4	0.1803	0.003314	0.0404
+Adult Astrocyte	Fmo3	0.18	0.003363	0.04059
+Adult Astrocyte	1700056E22Rik	0.1767	0.004004	0.04516
+Adult Astrocyte	Lamb3	0.1763	0.004094	0.04575
+Adult Astrocyte	Bzw1	0.1756	0.004228	0.04625
+Adult Astrocyte	Rassf5	0.173	0.004848	0.05179
+Adult Astrocyte	Stk25	0.1697	0.005713	0.05893
+Adult Astrocyte	Ikzf2	0.168	0.006199	0.06133
+Adult Astrocyte	Ccnyl1	0.1679	0.006253	0.06136
+Adult Astrocyte	Dgkd	0.1674	0.006386	0.06177
+Adult Astrocyte	Pkhd1	0.1674	0.006397	0.06177
+Adult Astrocyte	Dusp10	0.1658	0.006919	0.06576
+Adult Astrocyte	Hdac4	0.1639	0.007583	0.07122
+Adult Astrocyte	Prrx1	0.1639	0.007583	0.07122
+Adult Astrocyte	Gm28363	0.1636	0.007696	0.07146
+Adult Astrocyte	Efhc1	0.1613	0.008624	0.07662
+Adult Astrocyte	Cryga	0.1593	0.009468	0.08048
+Adult Astrocyte	Gm28845	0.1593	0.009468	0.08048
+Adult Astrocyte	D630023F18Rik	0.1593	0.009468	0.08048
+Adult Astrocyte	Epb41l5	0.1587	0.009742	0.08166
+Adult Astrocyte	Atp1a4	0.1576	0.01026	0.08482
+Adult Astrocyte	Dtymk	0.157	0.01057	0.08636
+Adult Astrocyte	Tnp1	0.1562	0.01095	0.08773
+Adult Astrocyte	Tmem9	0.1562	0.01098	0.08773
+Adult Astrocyte	Gm28360	0.1559	0.01112	0.08827
+Adult Astrocyte	Aox1	0.1549	0.01162	0.08991
+Adult Astrocyte	Fmn2	0.1548	0.01172	0.09008
+Adult Astrocyte	Hlx	0.1534	0.01249	0.09314
+Adult Astrocyte	Cryge	0.1531	0.01264	0.09352
+Adult Astrocyte	Tfap2d	0.1528	0.01281	0.09371
+Adult Astrocyte	Rpl31	0.1513	0.01372	0.09915
+Adult Astrocyte	Taf1a	0.1508	0.01402	0.1003
+Adult Astrocyte	Gigyf2	0.15	0.01457	0.1028
+Adult Astrocyte	Prdx6	0.1492	0.01508	0.1045
+Adult Astrocyte	Fam126b	0.1492	0.01509	0.1045
+Adult Astrocyte	Farp2	0.1487	0.01546	0.1058
+Adult Astrocyte	Nabp1	0.148	0.01596	0.1076
+Adult Astrocyte	Cfh	0.1473	0.01643	0.1096
+Adult Astrocyte	Pex19	0.1465	0.01701	0.1122
+Adult Astrocyte	Epha4	0.1457	0.01762	0.1149
+Adult Astrocyte	Npbwr1	0.1443	0.01876	0.1211
+Adult Astrocyte	Adhfe1	0.1442	0.01888	0.1212
+Adult Astrocyte	Tor1aip1	0.1423	0.02044	0.1299
+Adult Astrocyte	Fam174a	0.1421	0.02066	0.1301
+Adult Astrocyte	Traf3ip3	0.1419	0.0208	0.1301
+Adult Astrocyte	Fmo4	0.1416	0.02108	0.1303
+Adult Astrocyte	Colgalt2	0.1415	0.02116	0.1303
+Adult Astrocyte	Creb1	0.1397	0.0229	0.1396
+Adult Astrocyte	Psmd1	0.139	0.02361	0.1419
+Adult Astrocyte	Aqp12	0.139	0.02363	0.1419
+Adult Astrocyte	Bok	0.1388	0.02379	0.1422
+Adult Astrocyte	Tmem14a	0.1374	0.02523	0.1488
+Adult Astrocyte	Atp1b1	0.1363	0.02637	0.1539
+Adult Astrocyte	Rgs18	0.1347	0.02828	0.1573
+Adult Astrocyte	Slco4c1	0.1338	0.02928	0.1617
+Adult Astrocyte	Il17a	0.1337	0.02944	0.1617
+Adult Astrocyte	Tram2	0.133	0.03028	0.1646
+Adult Astrocyte	F5	0.1322	0.03137	0.169
+Adult Astrocyte	B020011L13Rik	0.1319	0.03166	0.1698
+Adult Astrocyte	Htr2b	0.1315	0.03221	0.172
+Adult Astrocyte	Eif2d	0.131	0.03288	0.1747
+Adult Astrocyte	Ctse	0.1295	0.03492	0.1825
+Adult Astrocyte	Boll	0.1282	0.03686	0.1918
+Adult Astrocyte	Serpine2	0.1273	0.03807	0.1964
+Adult Astrocyte	Gm19965	0.1267	0.03905	0.2006
+Adult Astrocyte	Elf3	0.1261	0.03993	0.2042
+Adult Astrocyte	Rrs1	0.126	0.0402	0.2047
+Adult Astrocyte	Ngef	0.1256	0.04086	0.2063
+Adult Astrocyte	2810459M11Rik	0.125	0.04177	0.2098
+Adult Astrocyte	Vxn	0.1249	0.04189	0.2098
+Adult Astrocyte	Ralb	0.1231	0.04501	0.2208
+Adult Astrocyte	Cntnap5a	0.1229	0.04534	0.2214
+Adult Astrocyte	Nme7	0.1227	0.04569	0.2215
+Adult Astrocyte	4933407L21Rik	0.1223	0.04638	0.2229
+Adult Astrocyte	Idh1	0.1222	0.04653	0.2229
+Adult Astrocyte	Mroh9	0.1221	0.04677	0.2231
+Adult Astrocyte	Gsta3	0.1201	0.05042	0.238
+Adult Astrocyte	Neu2	0.1196	0.05151	0.2384
+Adult Astrocyte	Lgr6	0.1195	0.05167	0.2384
+Adult Astrocyte	Marc2	0.1192	0.05225	0.2384
+Adult Astrocyte	Tmem182	0.1191	0.05248	0.2384
+Adult Astrocyte	Pi15	0.119	0.05253	0.2384
+Adult Astrocyte	Blzf1	0.1187	0.05317	0.2403
+Adult Astrocyte	Msc	0.1181	0.05444	0.2447
+Adult Astrocyte	Kcnj13	0.1178	0.05509	0.2454
+Adult Astrocyte	Cdc42bpa	0.1173	0.056	0.2476
+Adult Astrocyte	Fam71a	0.1169	0.05692	0.2492
+Adult Astrocyte	Plcl1	0.1167	0.0574	0.2492
+Adult Astrocyte	Atp2b4	0.1159	0.05901	0.2528
+Adult Astrocyte	Des	0.1158	0.05927	0.2528
+Adult Astrocyte	Gm3646	0.1155	0.05992	0.2546
+Adult Astrocyte	Fzd5	0.1153	0.06036	0.2556
+Adult Astrocyte	Gm21972	0.1139	0.06362	0.2667
+Adult Astrocyte	1700066M21Rik	0.1139	0.06363	0.2667
+Adult Astrocyte	Prrc2c	0.1134	0.06481	0.2707
+Adult Astrocyte	Crisp4	0.113	0.06579	0.2738
+Adult Astrocyte	Trpa1	0.1124	0.06713	0.2775
+Adult Astrocyte	Teddm1a	0.1115	0.06943	0.2836
+Adult Astrocyte	Itpkb	0.1113	0.06985	0.2839
+Adult Astrocyte	Nuf2	0.1112	0.07024	0.284
+Adult Astrocyte	Txndc9	0.1111	0.07034	0.284
+Adult Astrocyte	Pou2f1	0.1102	0.07281	0.291
+Adult Astrocyte	Dcaf8	0.1092	0.07527	0.2988
+Adult Astrocyte	Ndufb3	0.1089	0.07619	0.3015
+Adult Astrocyte	Ahctf1	0.108	0.07858	0.3099
+Adult Astrocyte	Sag	0.1079	0.07897	0.3105
+Adult Astrocyte	Stradb	0.1076	0.07956	0.3118
+Neonatal Astrocyte	Gli2	0.5715	4.452e-17	5.374e-14
+Neonatal Astrocyte	Clasp1	0.3916	8.598e-09	3.459e-06
+Neonatal Astrocyte	Cavin2	0.3429	4.641e-07	9.336e-05
+Neonatal Astrocyte	Tfcp2l1	0.339	6.281e-07	0.0001083
+Neonatal Astrocyte	Nifk	0.3283	1.397e-06	0.0001874
+Neonatal Astrocyte	Stat4	0.3217	2.256e-06	0.0002723
+Neonatal Astrocyte	Bcl2	0.2988	1.126e-05	0.0009124
+Neonatal Astrocyte	Srgap2	0.2956	1.389e-05	0.000994
+Neonatal Astrocyte	Fam72a	0.2955	1.4e-05	0.000994
+Neonatal Astrocyte	Ralb	0.2695	7.462e-05	0.004094
+Neonatal Astrocyte	Rgs20	0.2654	9.55e-05	0.005011
+Neonatal Astrocyte	Myo1b	0.2578	0.0001509	0.007005
+Neonatal Astrocyte	Tmeff2	0.2549	0.0001787	0.007989
+Neonatal Astrocyte	Tns1	0.2501	0.000237	0.01022
+Neonatal Astrocyte	Rgs21	0.2479	0.0002687	0.01081
+Neonatal Astrocyte	Epb41l5	0.2442	0.0003318	0.01252
+Neonatal Astrocyte	Avpr1b	0.2425	0.0003647	0.01334
+Neonatal Astrocyte	Arpc2	0.2401	0.0004178	0.01441
+Neonatal Astrocyte	Ush2a	0.2342	0.0005757	0.01616
+Neonatal Astrocyte	Kdsr	0.2332	0.0006078	0.01667
+Neonatal Astrocyte	Tmem185b	0.2271	0.0008435	0.02166
+Neonatal Astrocyte	Phlpp1	0.2212	0.00115	0.02572
+Neonatal Astrocyte	Inhbb	0.2177	0.001372	0.02806
+Neonatal Astrocyte	Ikbke	0.2143	0.001629	0.03171
+Neonatal Astrocyte	Myl1	0.2125	0.001785	0.03421
+Neonatal Astrocyte	Mybl1	0.2102	0.002002	0.03681
+Neonatal Astrocyte	Brinp3	0.2072	0.002325	0.04008
+Neonatal Astrocyte	Vcpip1	0.2054	0.002541	0.0426
+Neonatal Astrocyte	Tsn	0.2026	0.002908	0.04696
+Neonatal Astrocyte	Crocc2	0.1989	0.003463	0.04976
+Neonatal Astrocyte	Ctse	0.1983	0.003557	0.05051
+Neonatal Astrocyte	Copa	0.1978	0.00365	0.05123
+Neonatal Astrocyte	Vxn	0.1959	0.003977	0.05454
+Neonatal Astrocyte	Col9a1	0.1949	0.004175	0.05661
+Neonatal Astrocyte	Rab7b	0.1925	0.004662	0.06117
+Neonatal Astrocyte	Tex44	0.1908	0.005032	0.06531
+Neonatal Astrocyte	Acadl	0.1899	0.005246	0.06662
+Neonatal Astrocyte	Kif14	0.1897	0.005298	0.06662
+Neonatal Astrocyte	4931408C20Rik	0.1855	0.006393	0.07717
+Neonatal Astrocyte	Ddx59	0.1826	0.00726	0.08591
+Neonatal Astrocyte	Rhbdd1	0.1808	0.007885	0.09064
+Neonatal Astrocyte	Nrp2	0.1805	0.007981	0.09087
+Neonatal Astrocyte	Cd247	0.1788	0.00858	0.09678
+Neonatal Astrocyte	Hdac4	0.1776	0.009031	0.1
+Neonatal Astrocyte	Kctd3	0.176	0.009682	0.1043
+Neonatal Astrocyte	Nmur1	0.1751	0.01005	0.1065
+Neonatal Astrocyte	Aqp12	0.1751	0.01006	0.1065
+Neonatal Astrocyte	Itpkb	0.1737	0.01066	0.1108
+Neonatal Astrocyte	Rufy4	0.1736	0.01074	0.1108
+Neonatal Astrocyte	Mcm3	0.1725	0.01124	0.114
+Neonatal Astrocyte	Nabp1	0.1716	0.01164	0.1171
+Neonatal Astrocyte	Colgalt2	0.1701	0.01243	0.121
+Neonatal Astrocyte	Nckap5	0.1694	0.01275	0.123
+Neonatal Astrocyte	Kansl1l	0.1693	0.01284	0.123
+Neonatal Astrocyte	Cdh7	0.169	0.01298	0.1234
+Neonatal Astrocyte	Gm19965	0.1681	0.01351	0.1274
+Neonatal Astrocyte	Rnf2	0.1668	0.01419	0.1294
+Neonatal Astrocyte	Ptpn4	0.1656	0.0149	0.1332
+Neonatal Astrocyte	Pex19	0.1647	0.01546	0.137
+Neonatal Astrocyte	Fam135a	0.1627	0.0168	0.1463
+Neonatal Astrocyte	Pard3b	0.1624	0.01696	0.1463
+Neonatal Astrocyte	Nhlh1	0.1609	0.01805	0.1534
+Neonatal Astrocyte	Dpt	0.1598	0.01884	0.1561
+Neonatal Astrocyte	Mroh3	0.1575	0.02062	0.1654
+Neonatal Astrocyte	Ncl	0.1567	0.0213	0.168
+Neonatal Astrocyte	Ankrd45	0.1552	0.02251	0.1755
+Neonatal Astrocyte	Gpr39	0.1547	0.02301	0.1769
+Neonatal Astrocyte	Atp6v1h	0.1547	0.02301	0.1769
+Neonatal Astrocyte	Kif1a	0.1539	0.02369	0.1787
+Neonatal Astrocyte	Stum	0.1531	0.02446	0.1795
+Neonatal Astrocyte	Ncstn	0.1522	0.02533	0.1825
+Neonatal Astrocyte	Klhl20	0.1517	0.02573	0.1838
+Neonatal Astrocyte	Rassf5	0.1488	0.0287	0.2003
+Neonatal Astrocyte	Gpr35	0.1483	0.0293	0.2005
+Neonatal Astrocyte	4930558K02Rik	0.148	0.02962	0.2005
+Neonatal Astrocyte	Kif21b	0.1478	0.02979	0.2005
+Neonatal Astrocyte	Pth2r	0.1478	0.02986	0.2005
+Neonatal Astrocyte	Catip	0.1477	0.02991	0.2005
+Neonatal Astrocyte	Tex50	0.1472	0.03054	0.2021
+Neonatal Astrocyte	Lhx4	0.1471	0.03064	0.2021
+Neonatal Astrocyte	Agxt	0.1469	0.03084	0.2023
+Neonatal Astrocyte	Rpe	0.1465	0.0313	0.2042
+Neonatal Astrocyte	Dnm3	0.1455	0.03241	0.207
+Neonatal Astrocyte	Cntn2	0.1455	0.03248	0.207
+Neonatal Astrocyte	Inava	0.1454	0.03258	0.207
+Neonatal Astrocyte	Ier5	0.1446	0.03355	0.2109
+Neonatal Astrocyte	Tsen15	0.1431	0.03548	0.216
+Neonatal Astrocyte	Psmd1	0.1428	0.03579	0.216
+Neonatal Astrocyte	Adhfe1	0.1428	0.03585	0.216
+Neonatal Astrocyte	Casq1	0.1428	0.03587	0.216
+Neonatal Astrocyte	Dner	0.142	0.03684	0.2187
+Neonatal Astrocyte	Klhdc8a	0.1411	0.03809	0.2232
+Neonatal Astrocyte	Camsap2	0.1406	0.03879	0.2262
+Neonatal Astrocyte	Pign	0.1398	0.03983	0.2308
+Neonatal Astrocyte	Paqr8	0.1397	0.03997	0.2308
+Neonatal Astrocyte	Aff3	0.1394	0.04049	0.2319
+Neonatal Astrocyte	Tgfb2	0.1392	0.04076	0.2321
+Neonatal Astrocyte	Suco	0.139	0.04097	0.2322
+Neonatal Astrocyte	2810459M11Rik	0.1377	0.04302	0.2426
+Neonatal Astrocyte	Prdx6	0.1372	0.04375	0.2444
+Neonatal Astrocyte	Myoc	0.1364	0.04499	0.2473
+Neonatal Astrocyte	Htr2b	0.1363	0.04508	0.2473
+Neonatal Astrocyte	Gpc1	0.1355	0.0464	0.2511
+Neonatal Astrocyte	Mab21l4	0.1353	0.04668	0.2512
+Neonatal Astrocyte	Pigc	0.1352	0.04682	0.2512
+Neonatal Astrocyte	Cxcr2	0.1345	0.04811	0.2555
+Neonatal Astrocyte	Boll	0.1339	0.04898	0.2559
+Neonatal Astrocyte	Cenpl	0.1337	0.04933	0.2565
+Neonatal Astrocyte	Trip12	0.1336	0.04952	0.2565
+Neonatal Astrocyte	Aox4	0.1323	0.05179	0.2649
+Neonatal Astrocyte	Atp1a4	0.132	0.05231	0.2664
+Neonatal Astrocyte	Npl	0.1317	0.05291	0.2683
+Neonatal Astrocyte	Sgo2a	0.1312	0.05388	0.2687
+Neonatal Astrocyte	Plekha6	0.1311	0.05401	0.2687
+Neonatal Astrocyte	Eif2d	0.1305	0.05506	0.2687
+Neonatal Astrocyte	Rgs16	0.1304	0.05523	0.2687
+Neonatal Astrocyte	Gal3st2	0.1301	0.05582	0.2692
+Neonatal Astrocyte	Rbm44	0.1298	0.05642	0.2692
+Neonatal Astrocyte	Tnfsf4	0.1296	0.05681	0.27
+Neonatal Astrocyte	Acbd6	0.1291	0.05776	0.2722
+Neonatal Astrocyte	Ptpn7	0.1286	0.05875	0.2739
+Neonatal Astrocyte	Slc26a9	0.1283	0.05932	0.2743
+Neonatal Astrocyte	Gpbar1	0.1279	0.06021	0.2746
+Neonatal Astrocyte	Aamp	0.1279	0.06021	0.2746
+Neonatal Astrocyte	Vangl2	0.1271	0.06174	0.2801
+Neonatal Astrocyte	Ppil3	0.1266	0.0628	0.2814
+Neonatal Astrocyte	Swt1	0.1266	0.06286	0.2814
+Neonatal Astrocyte	B3gnt7	0.1256	0.06494	0.286
+Neonatal Astrocyte	St8sia4	0.1255	0.06515	0.286
+Neonatal Astrocyte	Atp1a2	0.125	0.06619	0.2874
+Neonatal Astrocyte	Kcnj13	0.1247	0.06676	0.2886
+Neonatal Astrocyte	Clk1	0.1245	0.06736	0.2886
+Neonatal Astrocyte	Creg1	0.1243	0.06768	0.2887
+Neonatal Astrocyte	Cab39	0.1236	0.06933	0.2947
+Neonatal Astrocyte	Aox2	0.1221	0.0728	0.3045
+Neonatal Astrocyte	Rgl1	0.1216	0.07397	0.3078
+Neonatal Astrocyte	Efhc1	0.1204	0.0768	0.3175
+Neonatal Astrocyte	Sdhaf4	0.1194	0.07921	0.324
+Neonatal Astrocyte	Kctd18	0.1191	0.07998	0.324
+Neonatal Astrocyte	Bzw1	0.1189	0.08057	0.3253
+Neonatal Astrocyte	Uxs1	0.1178	0.08331	0.3308
+Neonatal Astrocyte	Pid1	0.1177	0.08369	0.3312
+Neonatal Astrocyte	Fam129a	0.1162	0.08765	0.3404
+Neonatal Astrocyte	Col4a4	0.1159	0.08837	0.3404
+Neonatal Astrocyte	Rftn2	0.1153	0.09013	0.3426
+Neonatal Astrocyte	Pou2f1	0.1147	0.0918	0.3452
+Neonatal Astrocyte	Myocos	0.1137	0.09455	0.3522
+Neonatal Astrocyte	Xcl1	0.1136	0.09497	0.3527
+Neonatal Astrocyte	Ino80d	0.1131	0.09637	0.354
+Neonatal Astrocyte	Smyd2	0.1131	0.09646	0.354
+Oligodendrocyte Progenitor	Cdh20	0.4564	3.468e-15	6.658e-13
+Oligodendrocyte Progenitor	Erbb4	0.4556	3.861e-15	6.658e-13
+Oligodendrocyte Progenitor	Sntg1	0.3676	2.283e-10	2.505e-08
+Oligodendrocyte Progenitor	Brinp3	0.3455	2.515e-09	2.53e-07
+Oligodendrocyte Progenitor	Cdc73	0.3338	8.474e-09	6.819e-07
+Oligodendrocyte Progenitor	B3galt2	0.3295	1.32e-08	9.955e-07
+Oligodendrocyte Progenitor	Adgrb3	0.3027	1.773e-07	1.07e-05
+Oligodendrocyte Progenitor	Pid1	0.2854	8.516e-07	3.954e-05
+Oligodendrocyte Progenitor	Tmeff2	0.2842	9.483e-07	4.239e-05
+Oligodendrocyte Progenitor	Dnm3	0.2831	1.042e-06	4.492e-05
+Oligodendrocyte Progenitor	Phlpp1	0.2567	9.49e-06	0.000358
+Oligodendrocyte Progenitor	Nckap5	0.2446	2.454e-05	0.0008007
+Oligodendrocyte Progenitor	Brinp2	0.2328	5.943e-05	0.001459
+Oligodendrocyte Progenitor	Glrx2	0.2326	6.022e-05	0.001459
+Oligodendrocyte Progenitor	Tns1	0.2284	8.186e-05	0.001937
+Oligodendrocyte Progenitor	Ecrg4	0.2265	9.334e-05	0.002126
+Oligodendrocyte Progenitor	Ro60	0.2223	0.0001254	0.002752
+Oligodendrocyte Progenitor	Dner	0.2184	0.0001655	0.003504
+Oligodendrocyte Progenitor	Kif14	0.2044	0.000421	0.007365
+Oligodendrocyte Progenitor	Inava	0.2035	0.0004465	0.007659
+Oligodendrocyte Progenitor	Plxna2	0.2022	0.0004883	0.008185
+Oligodendrocyte Progenitor	Tmem185b	0.2004	0.0005478	0.009057
+Oligodendrocyte Progenitor	Epb41l5	0.1993	0.0005855	0.00955
+Oligodendrocyte Progenitor	Cntnap5b	0.1986	0.0006132	0.009869
+Oligodendrocyte Progenitor	Dpp10	0.1979	0.0006413	0.01017
+Oligodendrocyte Progenitor	Ptpn4	0.1971	0.0006746	0.01044
+Oligodendrocyte Progenitor	Cavin2	0.1947	0.0007823	0.01166
+Oligodendrocyte Progenitor	Mob4	0.1936	0.0008391	0.01235
+Oligodendrocyte Progenitor	Rufy4	0.189	0.001112	0.01617
+Oligodendrocyte Progenitor	Ptpn14	0.1886	0.00114	0.01638
+Oligodendrocyte Progenitor	Camsap2	0.1877	0.001203	0.01708
+Oligodendrocyte Progenitor	Tram2	0.1799	0.001918	0.0249
+Oligodendrocyte Progenitor	Eya1	0.1787	0.00205	0.02577
+Oligodendrocyte Progenitor	Tmem182	0.1779	0.002156	0.02655
+Oligodendrocyte Progenitor	Gpr25	0.1767	0.002299	0.02787
+Oligodendrocyte Progenitor	Tmem177	0.176	0.002393	0.02804
+Oligodendrocyte Progenitor	Map2	0.1755	0.00247	0.02867
+Oligodendrocyte Progenitor	Kcnj9	0.1729	0.002863	0.03141
+Oligodendrocyte Progenitor	B3gnt7	0.1708	0.003214	0.03374
+Oligodendrocyte Progenitor	Mroh3	0.1664	0.004091	0.0395
+Oligodendrocyte Progenitor	Vangl2	0.1645	0.004535	0.0421
+Oligodendrocyte Progenitor	Mybl1	0.1636	0.004767	0.04392
+Oligodendrocyte Progenitor	Efhc1	0.1626	0.005033	0.04549
+Oligodendrocyte Progenitor	Tmem163	0.1622	0.005136	0.04571
+Oligodendrocyte Progenitor	Cfap221	0.1622	0.005151	0.04571
+Oligodendrocyte Progenitor	Hs6st1	0.1612	0.005433	0.04697
+Oligodendrocyte Progenitor	2810459M11Rik	0.1611	0.005448	0.04697
+Oligodendrocyte Progenitor	Uxs1	0.1609	0.005525	0.04729
+Oligodendrocyte Progenitor	Ddx59	0.1599	0.005804	0.04865
+Oligodendrocyte Progenitor	Dbi	0.158	0.006435	0.05189
+Oligodendrocyte Progenitor	G0s2	0.1578	0.006492	0.05189
+Oligodendrocyte Progenitor	Armc9	0.1555	0.007317	0.05788
+Oligodendrocyte Progenitor	Smyd3	0.1554	0.007337	0.05788
+Oligodendrocyte Progenitor	Nek7	0.1537	0.008022	0.06187
+Oligodendrocyte Progenitor	Paqr8	0.1525	0.008536	0.06467
+Oligodendrocyte Progenitor	3110009E18Rik	0.1512	0.009124	0.06715
+Oligodendrocyte Progenitor	Kcnj10	0.151	0.009197	0.06728
+Oligodendrocyte Progenitor	Rabgap1l	0.1502	0.009554	0.06864
+Oligodendrocyte Progenitor	Igsf8	0.1487	0.01033	0.07204
+Oligodendrocyte Progenitor	1700025G04Rik	0.1482	0.01059	0.07304
+Oligodendrocyte Progenitor	Cacna1s	0.1478	0.01079	0.07317
+Oligodendrocyte Progenitor	Rftn2	0.1455	0.01206	0.07956
+Oligodendrocyte Progenitor	Nos1ap	0.1453	0.01217	0.07959
+Oligodendrocyte Progenitor	Ralb	0.145	0.01241	0.08052
+Oligodendrocyte Progenitor	Trak2	0.143	0.01362	0.08689
+Oligodendrocyte Progenitor	Unc80	0.1429	0.01368	0.08689
+Oligodendrocyte Progenitor	4930558K02Rik	0.1426	0.01392	0.08752
+Oligodendrocyte Progenitor	Tpp2	0.1423	0.01413	0.08836
+Oligodendrocyte Progenitor	Dyrk3	0.1406	0.01531	0.09296
+Oligodendrocyte Progenitor	D2hgdh	0.1402	0.01557	0.09296
+Oligodendrocyte Progenitor	Ncl	0.1401	0.01566	0.09296
+Oligodendrocyte Progenitor	Edem3	0.1371	0.01804	0.09911
+Oligodendrocyte Progenitor	Lamb3	0.137	0.01812	0.09911
+Oligodendrocyte Progenitor	Hsd11b1	0.1369	0.01818	0.09911
+Oligodendrocyte Progenitor	Prrx1	0.1367	0.01836	0.09939
+Oligodendrocyte Progenitor	Atp1a2	0.1364	0.01864	0.1005
+Oligodendrocyte Progenitor	Ing5	0.1348	0.02003	0.105
+Oligodendrocyte Progenitor	Zfp281	0.1346	0.02028	0.105
+Oligodendrocyte Progenitor	Kif21b	0.1341	0.02075	0.1061
+Oligodendrocyte Progenitor	Adhfe1	0.1336	0.02124	0.1073
+Oligodendrocyte Progenitor	Gli2	0.1328	0.022	0.1106
+Oligodendrocyte Progenitor	Odr4	0.1326	0.02222	0.1113
+Oligodendrocyte Progenitor	Tsn	0.1311	0.02373	0.1174
+Oligodendrocyte Progenitor	Tmem237	0.1308	0.02405	0.118
+Oligodendrocyte Progenitor	Ankrd44	0.1307	0.02419	0.1182
+Oligodendrocyte Progenitor	Serpine2	0.1302	0.02469	0.1201
+Oligodendrocyte Progenitor	Khdrbs2	0.1281	0.02712	0.1294
+Oligodendrocyte Progenitor	Vxn	0.1273	0.0281	0.1325
+Oligodendrocyte Progenitor	Psmd1	0.127	0.0285	0.1328
+Oligodendrocyte Progenitor	Zbtb41	0.1262	0.02953	0.1367
+Oligodendrocyte Progenitor	Pex19	0.1261	0.02956	0.1367
+Oligodendrocyte Progenitor	Nmur1	0.1231	0.03367	0.1505
+Oligodendrocyte Progenitor	Ndufs2	0.1228	0.03416	0.1516
+Oligodendrocyte Progenitor	Stat4	0.1195	0.03921	0.1678
+Oligodendrocyte Progenitor	Gm5415	0.1181	0.04157	0.1767
+Oligodendrocyte Progenitor	Mreg	0.118	0.0418	0.177
+Oligodendrocyte Progenitor	Pecr	0.1178	0.04219	0.1775
+Oligodendrocyte Progenitor	Srgap2	0.1178	0.04221	0.1775
+Oligodendrocyte Progenitor	Vcpip1	0.1172	0.04327	0.1795
+Oligodendrocyte Progenitor	Kcnq5	0.1168	0.04399	0.1807
+Oligodendrocyte Progenitor	Nifk	0.1166	0.04431	0.1807
+Oligodendrocyte Progenitor	Spata3	0.1165	0.04445	0.1807
+Oligodendrocyte Progenitor	Sf3b1	0.1165	0.04447	0.1807
+Oligodendrocyte Progenitor	Prelp	0.116	0.04545	0.1829
+Oligodendrocyte Progenitor	Gm21972	0.1156	0.04623	0.1854
+Oligodendrocyte Progenitor	Tpr	0.1149	0.04758	0.1877
+Oligodendrocyte Progenitor	Htr2b	0.1145	0.04834	0.19
+Oligodendrocyte Progenitor	Pigc	0.1135	0.05035	0.1946
+Oligodendrocyte Progenitor	Carf	0.1134	0.05046	0.1946
+Oligodendrocyte Progenitor	Prim2	0.1131	0.05113	0.1965
+Oligodendrocyte Progenitor	Atp1a4	0.1119	0.05369	0.2037
+Oligodendrocyte Progenitor	Tmem37	0.1118	0.0538	0.2037
+Oligodendrocyte Progenitor	Aspm	0.1117	0.05401	0.2037
+Oligodendrocyte Progenitor	Fam72a	0.1109	0.05568	0.2087
+Oligodendrocyte Progenitor	Dst	0.1102	0.0574	0.2132
+Oligodendrocyte Progenitor	Pign	0.1095	0.05887	0.2173
+Oligodendrocyte Progenitor	Tnr	0.1093	0.05931	0.2179
+Oligodendrocyte Progenitor	Xrcc5	0.109	0.06015	0.22
+Oligodendrocyte Progenitor	Mcm3	0.1088	0.06064	0.2208
+Oligodendrocyte Progenitor	Bend6	0.108	0.06249	0.2245
+Oligodendrocyte Progenitor	Nhlh1	0.1076	0.06347	0.2266
+Oligodendrocyte Progenitor	Disp1	0.1067	0.06573	0.2326
+Oligodendrocyte Progenitor	Dcaf8	0.1061	0.06718	0.2347
+Oligodendrocyte Progenitor	Apoa2	0.1056	0.06849	0.2362
+Oligodendrocyte Progenitor	Fcer1g	0.1056	0.06849	0.2362
+Oligodendrocyte Progenitor	Pea15a	0.1056	0.06849	0.2362
+Oligodendrocyte Progenitor	Tmem169	0.1053	0.06932	0.2377
+Oligodendrocyte Progenitor	Traf3ip3	0.1051	0.06994	0.2378
+Oligodendrocyte Progenitor	Tex44	0.1045	0.07141	0.2394
+Oligodendrocyte Progenitor	Gbx2	0.1043	0.072	0.2407
+Oligodendrocyte Progenitor	Resp18	0.1041	0.07262	0.2412
+Oligodendrocyte Progenitor	Gal3st2	0.1036	0.07402	0.2435
+Oligodendrocyte Progenitor	Sctr	0.1036	0.07405	0.2435
+Oligodendrocyte Progenitor	Cxcr2	0.1035	0.0743	0.2437
+Oligodendrocyte Progenitor	Fzd7	0.1031	0.07526	0.2455
+Oligodendrocyte Progenitor	Pou2f1	0.1028	0.07619	0.2475
+Oligodendrocyte Progenitor	Dnpep	0.1028	0.07628	0.2475
+Oligodendrocyte Progenitor	Copa	0.1026	0.07676	0.248
+Oligodendrocyte Progenitor	Nbeal1	0.1026	0.07686	0.248
+Oligodendrocyte Progenitor	Ncstn	0.1022	0.07798	0.2497
+Oligodendrocyte Progenitor	Clasp1	0.1009	0.08177	0.2577
+Oligodendrocyte Progenitor	Cntnap5a	0.1006	0.08276	0.2594
+Oligodendrocyte Progenitor	Mpp4	0.1003	0.08357	0.2594
+Oligodendrocyte Progenitor	Ppox	0.1003	0.08359	0.2594
+Oligodendrocyte Progenitor	Usp21	0.1003	0.08359	0.2594
+Oligodendrocyte Progenitor	Ufc1	0.1003	0.08359	0.2594
+Oligodendrocyte Progenitor	Gal3st2c	0.09982	0.08511	0.262
+Oligodendrocyte Progenitor	C130074G19Rik	0.0996	0.0858	0.2628
+Oligodendrocyte Progenitor	Uchl5	0.09914	0.08727	0.2667
+Oligodendrocyte Progenitor	Casq1	0.09829	0.08999	0.2743
