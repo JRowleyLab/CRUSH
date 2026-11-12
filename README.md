@@ -42,6 +42,15 @@ _Optional:_ UCSC `bedGraphToBigWig` on your `PATH`. If it is installed, CRUSH al
 
 CRUSH no longer needs bedtools, python, hicstraw or cooler.
 
+**Check your install** with the demo: chr20 of a 100M-contact LCL Hi-C map, called at 1 kb. It takes about 10 seconds.
+
+```
+cd CRUSH/demo
+./run_demo.sh
+```
+
+The script runs CRUSH and compares the result with the expected track. See [demo/README.md](demo/README.md).
+
 
 ### How to use CRUSH
 
