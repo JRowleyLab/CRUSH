@@ -332,9 +332,9 @@ SEEDING:
       --seed-anchor 0|1   Keep the seed SET fixed to the positions the initial
                           annotation supplied (gene bodies, low-GC bins) and
                           only relabel them A/B from the previous round, rather
-                          than seeding from every bin. v1 did this by accident:
-                          B23 made its seed union collapse to the original
-                          annotation every time                      [default: 0]
+                          than seeding from every bin. This matches v1, whose
+                          seed set stayed fixed to the initial annotation
+                                                                     [default: 0]
       --seed-frac F       Fraction of bins used as seeds each round, taken from
                           the extremes of the score distribution. 1.0 seeds
                           every bin; 0.5 seeds the top and bottom quartiles and
@@ -355,8 +355,8 @@ SEEDING:
 
 COMPATIBILITY:
       --v1                Run a line-for-line port of the bash v1 pipeline
-                          that produced the published tracks, bugs included,
-                          instead of the corrected algorithm. Defaults to that
+                          that produced the published tracks, instead of the
+                          default v2 algorithm. Defaults to that
                           pipeline's settings (-m 2500000 -w 5 -T 10); flags
                           given explicitly still override them. Add
                           --eigen-init 0 for runs that predate eigenvector
@@ -373,10 +373,8 @@ MISC:
   -H, --help-advanced     This message
 
 SHIFTER MODES:
-  highpass  Subtract the local rolling mean. Reproduces CRUSH bash v1.0, which
-            declared a coarse-resolution input but never read it, so this was
-            the only behaviour ever actually available. Removes slowly varying
-            regional signal.
+  highpass  Subtract the local rolling mean, as in CRUSH bash v1.0. Removes
+            slowly varying regional signal.
   coarse    Subtract (rolling mean - coarse score), re-centring the finer track
             on the coarser one and preserving regional structure."
     )
