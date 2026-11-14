@@ -3,27 +3,8 @@
 //! (Crush_FV_OnePunch_2_linkadded_1_Use.bash, "CRUSH_v1.0").
 //!
 //! This is deliberately NOT the corrected algorithm in main.rs. It reproduces
-//! v1 exactly, bugs included, so published numbers can be regenerated from
-//! Rust. Each function names the bash function it mirrors. Behaviours that
-//! differ from the corrected pipeline, all kept on purpose:
-//!
-//!   * score per bin = (ΣzA·nA − ΣzB·nB) / (total seed count); a bin seen
-//!     only by B seeds gets +ΣzB·nB, not −ΣzB·nB          (oppocheck mawk)
-//!   * z is normalised by the PARTNER bin's mean and SD    (RowZs)
-//!   * A and B seed sets may overlap; a seed interval ending on a bin edge
-//!     also seeds the next bin                              (process_genes_Bbins)
-//!   * re-initialised seeds replace the original set per chromosome
-//!                                                          (separating_ABbins)
-//!   * the shifter never reads its coarse input: a pure high-pass filter
-//!     over every bin, including empty ones                 (run_midshifter, B4)
-//!   * the reprocess pass uses the sliding window of the CURRENT resolution
-//!     for every coarser rung                               ($newwindow is global)
-//!   * the merge divides each rung's score by its bin width before averaging
-//!   * awk's %.6g number formatting is applied wherever bash writes a value
-//!     through awk and reads it back
-//!
-//! `--eigen-init 0` reproduces the older v1 runs (HCT-116, Oct 2024) that had
-//! no eigenvector step and seeded round 0 from the -a/-b annotations.
+//! v1 exactly,so published numbers can be regenerated from
+//! Rust. Each function names the bash function it mirrors. 
 
 use std::collections::{BTreeMap, HashMap, HashSet};
 use std::fs::File;
