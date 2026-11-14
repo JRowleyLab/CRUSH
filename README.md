@@ -145,3 +145,5 @@ These are genome-wide figures for GM12878 / LCL Hi-C.
 ### Citation
 
 Kalluchi et al, Kilobase-scale compartments enabled by CRUSH reveal regulatory programs across cell types, single-cells, and ancient mammoths. bioRxiv 2026
+
+Scripts to create the figures within the paper are available in the [CRUSH_paper](CRUSH_paper/) directory within this repository.
