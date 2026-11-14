@@ -332,9 +332,9 @@ SEEDING:
       --seed-anchor 0|1   Keep the seed SET fixed to the positions the initial
                           annotation supplied (gene bodies, low-GC bins) and
                           only relabel them A/B from the previous round, rather
-                          than seeding from every bin. This matches v1, whose
-                          seed set stayed fixed to the initial annotation
-                                                                     [default: 0]
+                          than seeding from every bin. v1 also drew its seeds
+                          from these positions, re-selecting each pass those
+                          that agree in sign with the previous call  [default: 0]
       --seed-frac F       Fraction of bins used as seeds each round, taken from
                           the extremes of the score distribution. 1.0 seeds
                           every bin; 0.5 seeds the top and bottom quartiles and
@@ -1752,9 +1752,10 @@ fn apply_shifter(
 /// within a coarse bin — which collapses the A-versus-B contrast the score
 /// depends on.
 ///
-/// The bash v1 implementation re-intersected the *original* annotation at every
-/// step and unioned the result with its own complement, which returns the
-/// original set for any input, so the seeds never changed at all (bug B23).
+/// The bash v1 implementation instead re-selects its seeds at every pass from
+/// the *original* annotation: genes overlapping positive bins become A seeds and
+/// low-GC bins overlapping negative bins B seeds. Its seeds therefore change
+/// each pass, but only among the annotated positions.
 ///
 /// ## Degeneracy guard
 ///
